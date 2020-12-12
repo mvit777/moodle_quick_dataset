@@ -37,6 +37,8 @@ The main folder should reside in moodle's root directory
 
 All the scripts are in the [py3 folder](https://github.com/mvit777/moodle_quick_dataset/tree/master/py3)
 
-The [screenshot folder](https://github.com/mvit777/moodle_quick_dataset/tree/master/py3/screenshot) should have write permission for moodle application (e.g. www-data)
+The [screenshot folder](https://github.com/mvit777/moodle_quick_dataset/tree/master/py3/screenshot) should have write permission for the user launching the [main.py](https://github.com/mvit777/moodle_quick_dataset/tree/master/py3/main.py) script.
+
+To start `python3 main.py` from inside the py3 folder
 
 
