@@ -30,4 +30,4 @@ The idea was to feed a script with the list of users and let selenium, a bit of 
 
 This [collection of scripts](https://github.com/mvit777/moodle_quick_dataset/tree/master/py3) is what I came out with and here a screencast of what they do
 
-https://www.youtube.com/watch?v=sj6mydLKPbk
+[screencast](https://www.youtube.com/watch?v=sj6mydLKPbk)
