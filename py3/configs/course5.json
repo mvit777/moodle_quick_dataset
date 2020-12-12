@@ -1,0 +1,63 @@
+{
+    "courses": {
+        "list": ["course5"],
+        "default_slide_delay": 5,
+        "scorm":{
+            "button_enter": "//input[@value=\"Enter\"]"
+        }
+    },
+    
+    "course5":{
+        "id" : 5,
+        "title": "corso5", 
+        "url": "course/view.php?id=5",
+        "browsemethod": "navigateByMoodleapi",
+        "force_enrol": {
+            "call": "enrol_manual_enrol_users",
+            "params": " 5 :userid: 5 ",
+            "timeout": 5,
+            "helper": "helperEnrol"
+        } ,
+        "paths": {
+            "31":{
+                "res_link_tipe": "by_xpath",
+                "comment": "reading pdf - Programma del corso"
+            },
+            "32":{
+                "res_link_tipe": "by_xpath",
+                "slides": 40,
+                "slide_delay": 5,
+                "button_advance": "//div[@id='content']/div/div[6]/div/button"
+            },
+            "33":{
+                "res_link_tipe": "by_xpath",
+                "slides": 56,
+                "slide_delay": 5,
+                "button_advance": "//div[@id='content']/div/div[6]/div/button"
+            },
+	    "4":{
+		"res_link_tipe": "by_xpath",
+		"questions": 1,
+		"question_delay": 5
+            },
+	    "35":{
+		"res_link_tipe": "by_xpath",
+		"button_enter": "//input[@value='Add a new discussion topic']",
+		"comment": "forum"
+            },
+	    "36":{
+		"id": 36,
+		"res_title": "Admin Blog3",
+		"res_link_tipe": "by_xpath",
+		"configure": "oublogConfigure",
+		"edit_link": "mod/oublog/editcomment.php?blog=4&post=3"
+	    }
+        }, 
+        "threeshold":{
+            "elite": 2,
+            "intermediate": 3,
+            "problematic": 4
+        }
+    }
+
+}

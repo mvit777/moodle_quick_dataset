@@ -1,0 +1,351 @@
+[
+	{
+		"id": 1,
+		"name": "General",
+		"visible": 1,
+		"summary": "\n<div align=\"center\"><img src=\"http:\/\/moodle36.localhost\/file.php\/2\/tre.jpg\" alt=\"ter\" title=\"ter\" vspace=\"0\" hspace=\"0\" height=\"178\" border=\"0\" width=\"112\" \/><br \/><\/div> ",
+		"summaryformat": 1,
+		"section": 0,
+		"hiddenbynumsections": 0,
+		"uservisible": true,
+		"modules": [
+			{
+				"id": 1,
+				"url": "http:\/\/moodle36.localhost\/mod\/forum\/view.php?id=1",
+				"name": "Announcements",
+				"instance": 1,
+				"visible": 1,
+				"uservisible": true,
+				"visibleoncoursepage": 1,
+				"modicon": "http:\/\/moodle36.localhost\/theme\/image.php\/clean\/forum\/1546866625\/icon",
+				"modname": "forum",
+				"modplural": "Forums",
+				"availability": null,
+				"indent": 0,
+				"onclick": "",
+				"afterlink": null,
+				"customdata": "\"\"",
+				"completion": 0
+			},
+			{
+				"id": 2,
+				"url": "http:\/\/moodle36.localhost\/mod\/forum\/view.php?id=2",
+				"name": "Forum News",
+				"instance": 2,
+				"visible": 1,
+				"uservisible": true,
+				"visibleoncoursepage": 1,
+				"modicon": "http:\/\/moodle36.localhost\/theme\/image.php\/clean\/forum\/1546866625\/icon",
+				"modname": "forum",
+				"modplural": "Forums",
+				"availability": null,
+				"indent": 0,
+				"onclick": "",
+				"afterlink": null,
+				"customdata": "\"\"",
+				"completion": 0
+			}
+		]
+	},
+	{
+		"id": 2,
+		"name": "Topic 1",
+		"visible": 1,
+		"summary": "<font color=\"#990000\"><b><font size=\"2\">Programma Corso<\/font><\/b><\/font> ",
+		"summaryformat": 1,
+		"section": 1,
+		"hiddenbynumsections": 0,
+		"uservisible": true,
+		"modules": [
+			{
+				"id": 3,
+				"url": "http:\/\/moodle36.localhost\/mod\/resource\/view.php?id=3",
+				"name": "Programma",
+				"instance": 1,
+				"visible": 1,
+				"uservisible": true,
+				"visibleoncoursepage": 1,
+				"modicon": "http:\/\/moodle36.localhost\/theme\/image.php\/clean\/core\/1546866625\/f\/pdf-24",
+				"modname": "resource",
+				"modplural": "Files",
+				"availability": null,
+				"indent": 0,
+				"onclick": "window.open('http:\/\/moodle36.localhost\/mod\/resource\/view.php?id=3&amp;redirect=1', '', 'width=620,height=450,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false;",
+				"afterlink": null,
+				"customdata": "\"a:2:{s:10:\\\"popupwidth\\\";i:620;s:11:\\\"popupheight\\\";i:450;}\"",
+				"completion": 2,
+				"completiondata": {
+					"state": 0,
+					"timecompleted": 0,
+					"overrideby": null
+				},
+				"contents": [
+					{
+						"type": "file",
+						"filename": "Programma_e_currmencacci.pdf",
+						"filepath": "\/",
+						"filesize": 331321,
+						"fileurl": "http:\/\/moodle36.localhost\/webservice\/pluginfile.php\/3719\/mod_resource\/content\/1\/Programma_e_currmencacci.pdf?forcedownload=1",
+						"timecreated": 1509977064,
+						"timemodified": 1490797094,
+						"sortorder": 1,
+						"mimetype": "application\/pdf",
+						"isexternalfile": false,
+						"userid": 2,
+						"author": null,
+						"license": null
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 3,
+		"name": "Topic 2",
+		"visible": 1,
+		"summary": "<font color=\"#990000\"><b><font size=\"2\">Introduzione<\/font><\/b><\/font> ",
+		"summaryformat": 1,
+		"section": 2,
+		"hiddenbynumsections": 0,
+		"uservisible": true,
+		"modules": [
+			{
+				"id": 4,
+				"url": "http:\/\/moodle36.localhost\/mod\/scorm\/view.php?id=4",
+				"name": "Introduzione",
+				"instance": 1,
+				"visible": 1,
+				"uservisible": true,
+				"visibleoncoursepage": 1,
+				"modicon": "http:\/\/moodle36.localhost\/theme\/image.php\/clean\/scorm\/1546866625\/icon",
+				"modname": "scorm",
+				"modplural": "SCORM packages",
+				"availability": null,
+				"indent": 0,
+				"onclick": "",
+				"afterlink": null,
+				"customdata": "{\"customcompletionrules\":{\"completionstatusrequired\":\"4\",\"completionscorerequired\":null,\"completionstatusallscos\":\"0\"}}",
+				"completion": 2,
+				"completiondata": {
+					"state": 0,
+					"timecompleted": 0,
+					"overrideby": null
+				}
+			}
+		]
+	},
+	{
+		"id": 4,
+		"name": "Topic 3",
+		"visible": 1,
+		"summary": " <font size=\"2\" color=\"#990000\"><b>Modulo 1: vivere la malattia neurodegenerativa. <\/b><\/font> ",
+		"summaryformat": 1,
+		"section": 3,
+		"hiddenbynumsections": 0,
+		"uservisible": true,
+		"modules": [
+			{
+				"id": 5,
+				"url": "http:\/\/moodle36.localhost\/mod\/scorm\/view.php?id=5",
+				"name": "Modulo 1",
+				"instance": 2,
+				"visible": 1,
+				"uservisible": true,
+				"visibleoncoursepage": 1,
+				"modicon": "http:\/\/moodle36.localhost\/theme\/image.php\/clean\/scorm\/1546866625\/icon",
+				"modname": "scorm",
+				"modplural": "SCORM packages",
+				"availability": null,
+				"indent": 0,
+				"onclick": "",
+				"afterlink": null,
+				"customdata": "\"\"",
+				"completion": 0
+			}
+		]
+	},
+	{
+		"id": 5,
+		"name": "Topic 4",
+		"visible": 1,
+		"summary": "<font color=\"#990000\"><b><font size=\"2\">Modulo 2 : La gestione delle problematiche psicologiche nel malato.<\/font><\/b><\/font> ",
+		"summaryformat": 1,
+		"section": 4,
+		"hiddenbynumsections": 0,
+		"uservisible": true,
+		"modules": [
+			{
+				"id": 6,
+				"url": "http:\/\/moodle36.localhost\/mod\/scorm\/view.php?id=6",
+				"name": "Modulo 2",
+				"instance": 3,
+				"visible": 1,
+				"uservisible": true,
+				"visibleoncoursepage": 1,
+				"modicon": "http:\/\/moodle36.localhost\/theme\/image.php\/clean\/scorm\/1546866625\/icon",
+				"modname": "scorm",
+				"modplural": "SCORM packages",
+				"availability": null,
+				"indent": 0,
+				"onclick": "",
+				"afterlink": null,
+				"customdata": "\"\"",
+				"completion": 0
+			}
+		]
+	},
+	{
+		"id": 6,
+		"name": "Topic 5",
+		"visible": 1,
+		"summary": "<font color=\"#990000\"><b><font size=\"2\">Modulo 3 : Vivere la malattia accanto al malato.<\/font><\/b><\/font> ",
+		"summaryformat": 1,
+		"section": 5,
+		"hiddenbynumsections": 0,
+		"uservisible": true,
+		"modules": [
+			{
+				"id": 7,
+				"url": "http:\/\/moodle36.localhost\/mod\/scorm\/view.php?id=7",
+				"name": "Modulo 3",
+				"instance": 4,
+				"visible": 1,
+				"uservisible": true,
+				"visibleoncoursepage": 1,
+				"modicon": "http:\/\/moodle36.localhost\/theme\/image.php\/clean\/scorm\/1546866625\/icon",
+				"modname": "scorm",
+				"modplural": "SCORM packages",
+				"availability": null,
+				"indent": 0,
+				"onclick": "",
+				"afterlink": null,
+				"customdata": "\"\"",
+				"completion": 0
+			}
+		]
+	},
+	{
+		"id": 7,
+		"name": "Topic 6",
+		"visible": 1,
+		"summary": "<font color=\"#990000\"><b><font size=\"2\">Modulo 4 : Accompagnare nel percorso di perdita. <\/font><\/b><\/font>",
+		"summaryformat": 1,
+		"section": 6,
+		"hiddenbynumsections": 0,
+		"uservisible": true,
+		"modules": [
+			{
+				"id": 8,
+				"url": "http:\/\/moodle36.localhost\/mod\/scorm\/view.php?id=8",
+				"name": "Modulo 4",
+				"instance": 5,
+				"visible": 1,
+				"uservisible": true,
+				"visibleoncoursepage": 1,
+				"modicon": "http:\/\/moodle36.localhost\/theme\/image.php\/clean\/scorm\/1546866625\/icon",
+				"modname": "scorm",
+				"modplural": "SCORM packages",
+				"availability": null,
+				"indent": 0,
+				"onclick": "",
+				"afterlink": null,
+				"customdata": "{\"customcompletionrules\":{\"completionstatusrequired\":\"6\",\"completionscorerequired\":null,\"completionstatusallscos\":\"0\"}}",
+				"completion": 2,
+				"completiondata": {
+					"state": 0,
+					"timecompleted": 0,
+					"overrideby": null
+				}
+			}
+		]
+	},
+	{
+		"id": 8,
+		"name": "Topic 7",
+		"visible": 1,
+		"summary": "",
+		"summaryformat": 1,
+		"section": 7,
+		"hiddenbynumsections": 0,
+		"uservisible": true,
+		"modules": [
+			{
+				"id": 9,
+				"url": "http:\/\/moodle36.localhost\/mod\/resource\/view.php?id=9",
+				"name": "Bibliografia",
+				"instance": 2,
+				"visible": 1,
+				"uservisible": true,
+				"visibleoncoursepage": 1,
+				"modicon": "http:\/\/moodle36.localhost\/theme\/image.php\/clean\/core\/1546866625\/f\/pdf-24",
+				"modname": "resource",
+				"modplural": "Files",
+				"availability": null,
+				"indent": 0,
+				"onclick": "window.open('http:\/\/moodle36.localhost\/mod\/resource\/view.php?id=9&amp;redirect=1', '', 'width=620,height=450,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false;",
+				"afterlink": null,
+				"customdata": "\"a:4:{s:12:\\\"printheading\\\";i:0;s:10:\\\"printintro\\\";i:1;s:10:\\\"popupwidth\\\";s:3:\\\"620\\\";s:11:\\\"popupheight\\\";s:3:\\\"450\\\";}\"",
+				"completion": 0,
+				"contents": [
+					{
+						"type": "file",
+						"filename": "BIBLIOGRAFIA.pdf",
+						"filepath": "\/",
+						"filesize": 10618,
+						"fileurl": "http:\/\/moodle36.localhost\/webservice\/pluginfile.php\/3725\/mod_resource\/content\/0\/BIBLIOGRAFIA.pdf?forcedownload=1",
+						"timecreated": 1509977064,
+						"timemodified": 1493376105,
+						"sortorder": 0,
+						"mimetype": "application\/pdf",
+						"isexternalfile": false,
+						"userid": 2,
+						"author": null,
+						"license": null
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 9,
+		"name": "Topic 8",
+		"visible": 1,
+		"summary": "<font color=\"#009999\"><b><font size=\"2\">Test Finale ( max 5 tentativi)<\/font><\/b><\/font> ",
+		"summaryformat": 1,
+		"section": 8,
+		"hiddenbynumsections": 0,
+		"uservisible": true,
+		"modules": [
+			{
+				"id": 10,
+				"url": "http:\/\/moodle36.localhost\/mod\/quiz\/view.php?id=10",
+				"name": "Test Finale Corso MN",
+				"instance": 1,
+				"visible": 1,
+				"uservisible": true,
+				"visibleoncoursepage": 1,
+				"modicon": "http:\/\/moodle36.localhost\/theme\/image.php\/clean\/quiz\/1546866625\/icon",
+				"modname": "quiz",
+				"modplural": "Quizzes",
+				"availability": null,
+				"indent": 0,
+				"onclick": "",
+				"afterlink": null,
+				"customdata": "\"\"",
+				"completion": 0
+			}
+		]
+	},
+	{
+		"id": 10,
+		"name": "Topic 9",
+		"visible": 1,
+		"summary": "<font size=\"2\" color=\"#009966\"><b>Questionario di soddisfazione ( obbligatorio) <\/b><\/font>",
+		"summaryformat": 1,
+		"section": 9,
+		"hiddenbynumsections": 0,
+		"uservisible": true,
+		"modules": [
+		]
+	}
+]

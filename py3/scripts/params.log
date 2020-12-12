@@ -1,0 +1,6147 @@
+
+Warning: Only arrays and Traversables can be unpacked in /home/marcello/projects/moodle/moodle/local/customclasses/autoloader.php on line 14
+<?php
+// auth_email_get_signup_settings
+$args0=	array (   //e_s_s 
+	)
+;
+print_r($args0);
+
+
+// auth_email_signup_user
+$args1=	array (   //e_s_s 
+	'username' =>		'', //		PARAM_USERNAME	VALUE_REQUIRED	[]
+	'password' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	'firstname' =>		'', //		PARAM_NOTAGS	VALUE_REQUIRED	[]
+	'lastname' =>		'', //		PARAM_NOTAGS	VALUE_REQUIRED	[]
+	'email' =>		'', //		PARAM_RAW_TRIMMED	VALUE_REQUIRED	[]
+	'city' =>		'', //		PARAM_MULTILANG	VALUE_DEFAULT	[]
+	'country' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[]
+	'recaptchachallengehash' =>		'', //		PARAM_RAW	VALUE_DEFAULT	[]
+	'recaptcharesponse' =>		'', //		PARAM_NOTAGS	VALUE_DEFAULT	[]
+	'customprofilefields' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'type' =>				'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+			'name' =>				'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	'redirect' =>		'', //		PARAM_LOCALURL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args1);
+
+
+// block_recentlyaccesseditems_get_recent_items
+$args2=	array (   //e_s_s 
+	'limit' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args2);
+
+
+// block_starredcourses_get_starred_courses
+$args3=	array (   //e_s_s 
+	'limit' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'offset' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args3);
+
+
+// core_auth_confirm_user
+$args4=	array (   //e_s_s 
+	'username' =>		'', //		PARAM_USERNAME	VALUE_REQUIRED	[]
+	'secret' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	)
+;
+print_r($args4);
+
+
+// core_auth_is_age_digital_consent_verification_enabled
+$args5=	array (   //e_s_s 
+	)
+;
+print_r($args5);
+
+
+// core_auth_is_minor
+$args6=	array (   //e_s_s 
+	'age' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'country' =>		'', //		PARAM_ALPHA	VALUE_REQUIRED	[]
+	)
+;
+print_r($args6);
+
+
+// core_auth_request_password_reset
+$args7=	array (   //e_s_s 
+	'username' =>		'', //		PARAM_USERNAME	VALUE_DEFAULT	[]
+	'email' =>		'', //		PARAM_RAW_TRIMMED	VALUE_DEFAULT	[]
+	)
+;
+print_r($args7);
+
+
+// core_auth_resend_confirmation_email
+$args8=	array (   //e_s_s 
+	'username' =>		'', //		PARAM_USERNAME	VALUE_REQUIRED	[]
+	'password' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	'redirect' =>		'', //		PARAM_LOCALURL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args8);
+
+
+// core_badges_get_user_badges
+$args9=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'page' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'perpage' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'search' =>		'', //		PARAM_RAW	VALUE_DEFAULT	[]
+	'onlypublic' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args9);
+
+
+// core_block_get_course_blocks
+$args10=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'returncontents' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args10);
+
+
+// core_block_get_dashboard_blocks
+$args11=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'returncontents' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args11);
+
+
+// core_blog_get_entries
+$args12=	array (   //e_s_s 
+	'filters' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_ALPHA	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	'page' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'perpage' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[10]
+	)
+;
+print_r($args12);
+
+
+// core_blog_view_entries
+$args13=	array (   //e_s_s 
+	'filters' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_ALPHA	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args13);
+
+
+// core_calendar_create_calendar_events
+$args14=	array (   //e_s_s 
+	'events' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+			'description' =>				'', //		PARAM_RAW	VALUE_DEFAULT	[]
+			'format' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+			'courseid' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+			'groupid' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+			'repeats' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+			'eventtype' =>				'', //		PARAM_MULTILANG	VALUE_DEFAULT	[user]
+			'timestart' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[1546773825]
+			'timeduration' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+			'visible' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+			'sequence' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+			),
+		 ),
+	)
+;
+print_r($args14);
+
+
+// core_calendar_delete_calendar_events
+$args15=	array (   //e_s_s 
+	'events' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'eventid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'repeat' =>				true, //		PARAM_BOOL	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args15);
+
+
+// core_calendar_get_action_events_by_course
+$args16=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'timesortfrom' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	'timesortto' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	'aftereventid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limitnum' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[20]
+	)
+;
+print_r($args16);
+
+
+// core_calendar_get_action_events_by_courses
+$args17=	array (   //e_s_s 
+	'courseids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	'timesortfrom' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	'timesortto' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	'limitnum' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[10]
+	)
+;
+print_r($args17);
+
+
+// core_calendar_get_action_events_by_timesort
+$args18=	array (   //e_s_s 
+	'timesortfrom' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'timesortto' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	'aftereventid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limitnum' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[20]
+	'limittononsuspendedevents' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args18);
+
+
+// core_calendar_get_calendar_day_view
+$args19=	array (   //e_s_s 
+	'year' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'month' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'day' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+	'categoryid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	)
+;
+print_r($args19);
+
+
+// core_calendar_get_calendar_event_by_id
+$args20=	array (   //e_s_s 
+	'eventid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args20);
+
+
+// core_calendar_get_calendar_events
+$args21=	array (   //e_s_s 
+	'events' =>		array (   //e_s_s 
+		'eventids' =>			array(  // e_m_s
+				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			 ),
+		'courseids' =>			array(  // e_m_s
+				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			 ),
+		'groupids' =>			array(  // e_m_s
+				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			 ),
+		'categoryids' =>			array(  // e_m_s
+				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			 ),
+		),
+	'options' =>		array (   //e_s_s 
+		'userevents' =>			true, //		PARAM_BOOL	VALUE_DEFAULT	[1]
+		'siteevents' =>			true, //		PARAM_BOOL	VALUE_DEFAULT	[1]
+		'timestart' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		'timeend' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		'ignorehidden' =>			true, //		PARAM_BOOL	VALUE_DEFAULT	[1]
+		),
+	)
+;
+print_r($args21);
+
+
+// core_calendar_get_calendar_monthly_view
+$args22=	array (   //e_s_s 
+	'year' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'month' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+	'categoryid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	'includenavigation' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[1]
+	'mini' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args22);
+
+
+// core_calendar_get_calendar_upcoming_view
+$args23=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+	'categoryid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	)
+;
+print_r($args23);
+
+
+// core_calendar_submit_create_update_form
+$args24=	array (   //e_s_s 
+	'formdata' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	)
+;
+print_r($args24);
+
+
+// core_calendar_update_event_start_day
+$args25=	array (   //e_s_s 
+	'eventid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'daytimestamp' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args25);
+
+
+// core_cohort_add_cohort_members
+$args26=	array (   //e_s_s 
+	'members' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'cohorttype' =>				array (   //e_s_s 
+				'type' =>					'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+				'value' =>					'', //		PARAM_RAW	VALUE_REQUIRED	[]
+				),
+			'usertype' =>				array (   //e_s_s 
+				'type' =>					'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+				'value' =>					'', //		PARAM_RAW	VALUE_REQUIRED	[]
+				),
+			),
+		 ),
+	)
+;
+print_r($args26);
+
+
+// core_cohort_create_cohorts
+$args27=	array (   //e_s_s 
+	'cohorts' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'categorytype' =>				array (   //e_s_s 
+				'type' =>					'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+				'value' =>					'', //		PARAM_RAW	VALUE_REQUIRED	[]
+				),
+			'name' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			'idnumber' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			'description' =>				'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+			'descriptionformat' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+			'visible' =>				true, //		PARAM_BOOL	VALUE_OPTIONAL	[1]
+			'theme' =>				'', //		PARAM_THEME	VALUE_OPTIONAL	[]
+			),
+		 ),
+	)
+;
+print_r($args27);
+
+
+// core_cohort_delete_cohort_members
+$args28=	array (   //e_s_s 
+	'members' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'cohortid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'userid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args28);
+
+
+// core_cohort_delete_cohorts
+$args29=	array (   //e_s_s 
+	'cohortids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args29);
+
+
+// core_cohort_get_cohort_members
+$args30=	array (   //e_s_s 
+	'cohortids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args30);
+
+
+// core_cohort_get_cohorts
+$args31=	array (   //e_s_s 
+	'cohortids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args31);
+
+
+// core_cohort_search_cohorts
+$args32=	array (   //e_s_s 
+	'query' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	'context' =>		array (   //e_s_s 
+		'contextid' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		'contextlevel' =>			'', //		PARAM_ALPHA	VALUE_DEFAULT	[]
+		'instanceid' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		),
+	'includes' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[parents]
+	'limitfrom' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limitnum' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[25]
+	)
+;
+print_r($args32);
+
+
+// core_cohort_update_cohorts
+$args33=	array (   //e_s_s 
+	'cohorts' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'id' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'categorytype' =>				array (   //e_s_s 
+				'type' =>					'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+				'value' =>					'', //		PARAM_RAW	VALUE_REQUIRED	[]
+				),
+			'name' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			'idnumber' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			'description' =>				'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+			'descriptionformat' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+			'visible' =>				true, //		PARAM_BOOL	VALUE_OPTIONAL	[]
+			'theme' =>				'', //		PARAM_THEME	VALUE_OPTIONAL	[]
+			),
+		 ),
+	)
+;
+print_r($args33);
+
+
+// core_comment_get_comments
+$args34=	array (   //e_s_s 
+	'contextlevel' =>		'', //		PARAM_ALPHA	VALUE_REQUIRED	[]
+	'instanceid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'component' =>		'', //		PARAM_COMPONENT	VALUE_REQUIRED	[]
+	'itemid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'area' =>		'', //		PARAM_AREA	VALUE_DEFAULT	[]
+	'page' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args34);
+
+
+// core_competency_add_competency_to_course
+$args35=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'competencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args35);
+
+
+// core_competency_add_competency_to_plan
+$args36=	array (   //e_s_s 
+	'planid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'competencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args36);
+
+
+// core_competency_add_competency_to_template
+$args37=	array (   //e_s_s 
+	'templateid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'competencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args37);
+
+
+// core_competency_add_related_competency
+$args38=	array (   //e_s_s 
+	'competencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'relatedcompetencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args38);
+
+
+// core_competency_approve_plan
+$args39=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args39);
+
+
+// core_competency_competency_framework_viewed
+$args40=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args40);
+
+
+// core_competency_competency_viewed
+$args41=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args41);
+
+
+// core_competency_complete_plan
+$args42=	array (   //e_s_s 
+	'planid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args42);
+
+
+// core_competency_count_competencies
+$args43=	array (   //e_s_s 
+	'filters' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'column' =>				'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args43);
+
+
+// core_competency_count_competencies_in_course
+$args44=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args44);
+
+
+// core_competency_count_competencies_in_template
+$args45=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args45);
+
+
+// core_competency_count_competency_frameworks
+$args46=	array (   //e_s_s 
+	'context' =>		array (   //e_s_s 
+		'contextid' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		'contextlevel' =>			'', //		PARAM_ALPHA	VALUE_DEFAULT	[]
+		'instanceid' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		),
+	'includes' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[children]
+	)
+;
+print_r($args46);
+
+
+// core_competency_count_courses_using_competency
+$args47=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args47);
+
+
+// core_competency_count_templates
+$args48=	array (   //e_s_s 
+	'context' =>		array (   //e_s_s 
+		'contextid' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		'contextlevel' =>			'', //		PARAM_ALPHA	VALUE_DEFAULT	[]
+		'instanceid' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		),
+	'includes' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[children]
+	)
+;
+print_r($args48);
+
+
+// core_competency_count_templates_using_competency
+$args49=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args49);
+
+
+// core_competency_create_competency
+$args50=	array (   //e_s_s 
+	'competency' =>		array (   //e_s_s 
+		'shortname' =>			'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+		'idnumber' =>			'', //		PARAM_RAW	VALUE_REQUIRED	[]
+		'description' =>			'', //		PARAM_CLEANHTML	VALUE_DEFAULT	[]
+		'descriptionformat' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+		'sortorder' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		'parentid' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		'path' =>			'', //		PARAM_RAW	VALUE_DEFAULT	[/0/]
+		'ruleoutcome' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		'ruletype' =>			'', //		PARAM_RAW	VALUE_DEFAULT	[]
+		'ruleconfig' =>			'', //		PARAM_RAW	VALUE_DEFAULT	[]
+		'scaleid' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+		'scaleconfiguration' =>			'', //		PARAM_RAW	VALUE_DEFAULT	[]
+		'competencyframeworkid' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		'timecreated' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		'timemodified' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		'usermodified' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		),
+	)
+;
+print_r($args50);
+
+
+// core_competency_create_competency_framework
+$args51=	array (   //e_s_s 
+	'competencyframework' =>		array (   //e_s_s 
+		'shortname' =>			'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+		'idnumber' =>			'', //		PARAM_RAW	VALUE_REQUIRED	[]
+		'description' =>			'', //		PARAM_CLEANHTML	VALUE_DEFAULT	[]
+		'descriptionformat' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+		'visible' =>			true, //		PARAM_BOOL	VALUE_DEFAULT	[1]
+		'scaleid' =>			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		'scaleconfiguration' =>			'', //		PARAM_RAW	VALUE_REQUIRED	[]
+		'contextid' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'contextlevel' =>			'', //		PARAM_ALPHA	VALUE_OPTIONAL	[]
+		'instanceid' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'taxonomies' =>			'', //		PARAM_RAW	VALUE_DEFAULT	[]
+		'timecreated' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		'timemodified' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		'usermodified' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		),
+	)
+;
+print_r($args51);
+
+
+// core_competency_create_plan
+$args52=	array (   //e_s_s 
+	'plan' =>		array (   //e_s_s 
+		'name' =>			'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+		'description' =>			'', //		PARAM_CLEANHTML	VALUE_DEFAULT	[]
+		'descriptionformat' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+		'userid' =>			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		'templateid' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+		'origtemplateid' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+		'status' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		'duedate' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		'reviewerid' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+		'timecreated' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		'timemodified' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		'usermodified' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		),
+	)
+;
+print_r($args52);
+
+
+// core_competency_create_template
+$args53=	array (   //e_s_s 
+	'template' =>		array (   //e_s_s 
+		'shortname' =>			'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+		'description' =>			'', //		PARAM_CLEANHTML	VALUE_DEFAULT	[]
+		'descriptionformat' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+		'duedate' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		'visible' =>			true, //		PARAM_BOOL	VALUE_DEFAULT	[1]
+		'contextid' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'contextlevel' =>			'', //		PARAM_ALPHA	VALUE_OPTIONAL	[]
+		'instanceid' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'timecreated' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		'timemodified' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		'usermodified' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		),
+	)
+;
+print_r($args53);
+
+
+// core_competency_create_user_evidence_competency
+$args54=	array (   //e_s_s 
+	'userevidenceid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'competencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args54);
+
+
+// core_competency_delete_competency
+$args55=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args55);
+
+
+// core_competency_delete_competency_framework
+$args56=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args56);
+
+
+// core_competency_delete_evidence
+$args57=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args57);
+
+
+// core_competency_delete_plan
+$args58=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args58);
+
+
+// core_competency_delete_template
+$args59=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'deleteplans' =>		true, //		PARAM_BOOL	VALUE_REQUIRED	[]
+	)
+;
+print_r($args59);
+
+
+// core_competency_delete_user_evidence
+$args60=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args60);
+
+
+// core_competency_delete_user_evidence_competency
+$args61=	array (   //e_s_s 
+	'userevidenceid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'competencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args61);
+
+
+// core_competency_duplicate_competency_framework
+$args62=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args62);
+
+
+// core_competency_duplicate_template
+$args63=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args63);
+
+
+// core_competency_get_scale_values
+$args64=	array (   //e_s_s 
+	'scaleid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args64);
+
+
+// core_competency_grade_competency
+$args65=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'competencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'grade' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'note' =>		'', //		PARAM_NOTAGS	VALUE_DEFAULT	[]
+	)
+;
+print_r($args65);
+
+
+// core_competency_grade_competency_in_course
+$args66=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'competencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'grade' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'note' =>		'', //		PARAM_NOTAGS	VALUE_DEFAULT	[]
+	)
+;
+print_r($args66);
+
+
+// core_competency_grade_competency_in_plan
+$args67=	array (   //e_s_s 
+	'planid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'competencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'grade' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'note' =>		'', //		PARAM_NOTAGS	VALUE_DEFAULT	[]
+	)
+;
+print_r($args67);
+
+
+// core_competency_list_competencies
+$args68=	array (   //e_s_s 
+	'filters' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'column' =>				'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+			),
+		 ),
+	'sort' =>		'', //		PARAM_FORMAT	VALUE_DEFAULT	[]
+	'order' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[]
+	'skip' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limit' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args68);
+
+
+// core_competency_list_competencies_in_template
+$args69=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args69);
+
+
+// core_competency_list_competency_frameworks
+$args70=	array (   //e_s_s 
+	'sort' =>		'', //		PARAM_FORMAT	VALUE_DEFAULT	[shortname]
+	'order' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[]
+	'skip' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limit' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'context' =>		array (   //e_s_s 
+		'contextid' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		'contextlevel' =>			'', //		PARAM_ALPHA	VALUE_DEFAULT	[]
+		'instanceid' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		),
+	'includes' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[children]
+	'onlyvisible' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	'query' =>		'', //		PARAM_RAW	VALUE_DEFAULT	[]
+	)
+;
+print_r($args70);
+
+
+// core_competency_list_course_competencies
+$args71=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args71);
+
+
+// core_competency_list_plan_competencies
+$args72=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args72);
+
+
+// core_competency_list_templates
+$args73=	array (   //e_s_s 
+	'sort' =>		'', //		PARAM_FORMAT	VALUE_DEFAULT	[]
+	'order' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[]
+	'skip' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limit' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'context' =>		array (   //e_s_s 
+		'contextid' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		'contextlevel' =>			'', //		PARAM_ALPHA	VALUE_DEFAULT	[]
+		'instanceid' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		),
+	'includes' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[children]
+	'onlyvisible' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args73);
+
+
+// core_competency_list_templates_using_competency
+$args74=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args74);
+
+
+// core_competency_list_user_plans
+$args75=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args75);
+
+
+// core_competency_move_down_competency
+$args76=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args76);
+
+
+// core_competency_move_up_competency
+$args77=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args77);
+
+
+// core_competency_plan_cancel_review_request
+$args78=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args78);
+
+
+// core_competency_plan_request_review
+$args79=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args79);
+
+
+// core_competency_plan_start_review
+$args80=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args80);
+
+
+// core_competency_plan_stop_review
+$args81=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args81);
+
+
+// core_competency_read_competency
+$args82=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args82);
+
+
+// core_competency_read_competency_framework
+$args83=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args83);
+
+
+// core_competency_read_plan
+$args84=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args84);
+
+
+// core_competency_read_template
+$args85=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args85);
+
+
+// core_competency_read_user_evidence
+$args86=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args86);
+
+
+// core_competency_remove_competency_from_course
+$args87=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'competencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args87);
+
+
+// core_competency_remove_competency_from_plan
+$args88=	array (   //e_s_s 
+	'planid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'competencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args88);
+
+
+// core_competency_remove_competency_from_template
+$args89=	array (   //e_s_s 
+	'templateid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'competencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args89);
+
+
+// core_competency_remove_related_competency
+$args90=	array (   //e_s_s 
+	'competencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'relatedcompetencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args90);
+
+
+// core_competency_reopen_plan
+$args91=	array (   //e_s_s 
+	'planid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args91);
+
+
+// core_competency_reorder_course_competency
+$args92=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'competencyidfrom' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'competencyidto' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args92);
+
+
+// core_competency_reorder_plan_competency
+$args93=	array (   //e_s_s 
+	'planid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'competencyidfrom' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'competencyidto' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args93);
+
+
+// core_competency_reorder_template_competency
+$args94=	array (   //e_s_s 
+	'templateid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'competencyidfrom' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'competencyidto' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args94);
+
+
+// core_competency_request_review_of_user_evidence_linked_competencies
+$args95=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args95);
+
+
+// core_competency_search_competencies
+$args96=	array (   //e_s_s 
+	'searchtext' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	'competencyframeworkid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args96);
+
+
+// core_competency_set_course_competency_ruleoutcome
+$args97=	array (   //e_s_s 
+	'coursecompetencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'ruleoutcome' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args97);
+
+
+// core_competency_set_parent_competency
+$args98=	array (   //e_s_s 
+	'competencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'parentid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args98);
+
+
+// core_competency_template_has_related_data
+$args99=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args99);
+
+
+// core_competency_template_viewed
+$args100=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args100);
+
+
+// core_competency_unapprove_plan
+$args101=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args101);
+
+
+// core_competency_unlink_plan_from_template
+$args102=	array (   //e_s_s 
+	'planid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args102);
+
+
+// core_competency_update_competency
+$args103=	array (   //e_s_s 
+	'competency' =>		array (   //e_s_s 
+		'shortname' =>			'', //		PARAM_MULTILANG	VALUE_OPTIONAL	[]
+		'idnumber' =>			'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+		'description' =>			'', //		PARAM_CLEANHTML	VALUE_OPTIONAL	[]
+		'descriptionformat' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+		'sortorder' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'parentid' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'path' =>			'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+		'ruleoutcome' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'ruletype' =>			'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+		'ruleconfig' =>			'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+		'scaleid' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'scaleconfiguration' =>			'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+		'competencyframeworkid' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'id' =>			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		'timecreated' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'timemodified' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'usermodified' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		),
+	)
+;
+print_r($args103);
+
+
+// core_competency_update_competency_framework
+$args104=	array (   //e_s_s 
+	'competencyframework' =>		array (   //e_s_s 
+		'shortname' =>			'', //		PARAM_MULTILANG	VALUE_OPTIONAL	[]
+		'idnumber' =>			'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+		'description' =>			'', //		PARAM_CLEANHTML	VALUE_OPTIONAL	[]
+		'descriptionformat' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+		'visible' =>			true, //		PARAM_BOOL	VALUE_OPTIONAL	[]
+		'scaleid' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'scaleconfiguration' =>			'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+		'contextid' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'contextlevel' =>			'', //		PARAM_ALPHA	VALUE_OPTIONAL	[]
+		'instanceid' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'taxonomies' =>			'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+		'id' =>			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		'timecreated' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'timemodified' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'usermodified' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		),
+	)
+;
+print_r($args104);
+
+
+// core_competency_update_course_competency_settings
+$args105=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'settings' =>		array (   //e_s_s 
+		'pushratingstouserplans' =>			true, //		PARAM_BOOL	VALUE_REQUIRED	[]
+		),
+	)
+;
+print_r($args105);
+
+
+// core_competency_update_plan
+$args106=	array (   //e_s_s 
+	'plan' =>		array (   //e_s_s 
+		'name' =>			'', //		PARAM_MULTILANG	VALUE_OPTIONAL	[]
+		'description' =>			'', //		PARAM_CLEANHTML	VALUE_OPTIONAL	[]
+		'descriptionformat' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+		'userid' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'templateid' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'origtemplateid' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'status' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'duedate' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'reviewerid' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'id' =>			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		'timecreated' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'timemodified' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'usermodified' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		),
+	)
+;
+print_r($args106);
+
+
+// core_competency_update_template
+$args107=	array (   //e_s_s 
+	'template' =>		array (   //e_s_s 
+		'shortname' =>			'', //		PARAM_MULTILANG	VALUE_OPTIONAL	[]
+		'description' =>			'', //		PARAM_CLEANHTML	VALUE_OPTIONAL	[]
+		'descriptionformat' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+		'duedate' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'visible' =>			true, //		PARAM_BOOL	VALUE_OPTIONAL	[]
+		'contextid' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'contextlevel' =>			'', //		PARAM_ALPHA	VALUE_OPTIONAL	[]
+		'instanceid' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'id' =>			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		'timecreated' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'timemodified' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'usermodified' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		),
+	)
+;
+print_r($args107);
+
+
+// core_competency_user_competency_cancel_review_request
+$args108=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'competencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args108);
+
+
+// core_competency_user_competency_plan_viewed
+$args109=	array (   //e_s_s 
+	'competencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'planid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args109);
+
+
+// core_competency_user_competency_request_review
+$args110=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'competencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args110);
+
+
+// core_competency_user_competency_start_review
+$args111=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'competencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args111);
+
+
+// core_competency_user_competency_stop_review
+$args112=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'competencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args112);
+
+
+// core_competency_user_competency_viewed
+$args113=	array (   //e_s_s 
+	'usercompetencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args113);
+
+
+// core_competency_user_competency_viewed_in_course
+$args114=	array (   //e_s_s 
+	'competencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args114);
+
+
+// core_competency_user_competency_viewed_in_plan
+$args115=	array (   //e_s_s 
+	'competencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'planid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args115);
+
+
+// core_completion_get_activities_completion_status
+$args116=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args116);
+
+
+// core_completion_get_course_completion_status
+$args117=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args117);
+
+
+// core_completion_mark_course_self_completed
+$args118=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args118);
+
+
+// core_completion_override_activity_completion_status
+$args119=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'cmid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'newstate' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args119);
+
+
+// core_completion_update_activity_completion_status_manually
+$args120=	array (   //e_s_s 
+	'cmid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'completed' =>		true, //		PARAM_BOOL	VALUE_REQUIRED	[]
+	)
+;
+print_r($args120);
+
+
+// core_course_check_updates
+$args121=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'tocheck' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'contextlevel' =>				'', //		PARAM_ALPHA	VALUE_REQUIRED	[]
+			'id' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'since' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			),
+		 ),
+	'filter' =>		array(  // e_m_s
+			'', //		PARAM_ALPHANUM	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args121);
+
+
+// core_course_create_categories
+$args122=	array (   //e_s_s 
+	'categories' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+			'parent' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+			'idnumber' =>				'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+			'description' =>				'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+			'descriptionformat' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+			'theme' =>				'', //		PARAM_THEME	VALUE_OPTIONAL	[]
+			),
+		 ),
+	)
+;
+print_r($args122);
+
+
+// core_course_create_courses
+$args123=	array (   //e_s_s 
+	'courses' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'fullname' =>				'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+			'shortname' =>				'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+			'categoryid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'idnumber' =>				'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+			'summary' =>				'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+			'summaryformat' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+			'format' =>				'', //		PARAM_PLUGIN	VALUE_DEFAULT	[topics]
+			'showgrades' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+			'newsitems' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[5]
+			'startdate' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'enddate' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'numsections' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'maxbytes' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+			'showreports' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+			'visible' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'hiddensections' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'groupmode' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+			'groupmodeforce' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+			'defaultgroupingid' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+			'enablecompletion' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'completionnotify' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'lang' =>				'', //		PARAM_SAFEDIR	VALUE_OPTIONAL	[]
+			'forcetheme' =>				'', //		PARAM_PLUGIN	VALUE_OPTIONAL	[]
+			'courseformatoptions' =>				array(  // e_m_s
+					array (   //e_s_s 
+					'name' =>						'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+					'value' =>						'', //		PARAM_RAW	VALUE_REQUIRED	[]
+					),
+				 ),
+			),
+		 ),
+	)
+;
+print_r($args123);
+
+
+// core_course_delete_categories
+$args124=	array (   //e_s_s 
+	'categories' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'id' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'newparent' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'recursive' =>				true, //		PARAM_BOOL	VALUE_DEFAULT	[0]
+			),
+		 ),
+	)
+;
+print_r($args124);
+
+
+// core_course_delete_courses
+$args125=	array (   //e_s_s 
+	'courseids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args125);
+
+
+// core_course_delete_modules
+$args126=	array (   //e_s_s 
+	'cmids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args126);
+
+
+// core_course_duplicate_course
+$args127=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'fullname' =>		'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+	'shortname' =>		'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+	'categoryid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'visible' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+	'options' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_ALPHAEXT	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args127);
+
+
+// core_course_edit_module
+$args128=	array (   //e_s_s 
+	'action' =>		'', //		PARAM_ALPHA	VALUE_REQUIRED	[]
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'sectionreturn' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	)
+;
+print_r($args128);
+
+
+// core_course_edit_section
+$args129=	array (   //e_s_s 
+	'action' =>		'', //		PARAM_ALPHA	VALUE_REQUIRED	[]
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'sectionreturn' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	)
+;
+print_r($args129);
+
+
+// core_course_get_activities_overview
+$args130=	array (   //e_s_s 
+	'courseids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args130);
+
+
+// core_course_get_categories
+$args131=	array (   //e_s_s 
+	'criteria' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'key' =>				'', //		PARAM_ALPHA	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	'addsubcategories' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[1]
+	)
+;
+print_r($args131);
+
+
+// core_course_get_contents
+$args132=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'options' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_ALPHANUM	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args132);
+
+
+// core_course_get_course_module
+$args133=	array (   //e_s_s 
+	'cmid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args133);
+
+
+// core_course_get_course_module_by_instance
+$args134=	array (   //e_s_s 
+	'module' =>		'', //		PARAM_COMPONENT	VALUE_REQUIRED	[]
+	'instance' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args134);
+
+
+// core_course_get_courses
+$args135=	array (   //e_s_s 
+	'options' =>		array (   //e_s_s 
+		'ids' =>			array(  // e_m_s
+				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			 ),
+		),
+	)
+;
+print_r($args135);
+
+
+// core_course_get_courses_by_field
+$args136=	array (   //e_s_s 
+	'field' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[]
+	'value' =>		'', //		PARAM_RAW	VALUE_DEFAULT	[]
+	)
+;
+print_r($args136);
+
+
+// core_course_get_enrolled_courses_by_timeline_classification
+$args137=	array (   //e_s_s 
+	'classification' =>		'', //		PARAM_ALPHA	VALUE_REQUIRED	[]
+	'limit' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'offset' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'sort' =>		'', //		PARAM_MULTILANG	VALUE_DEFAULT	[]
+	)
+;
+print_r($args137);
+
+
+// core_course_get_module
+$args138=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'sectionreturn' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	)
+;
+print_r($args138);
+
+
+// core_course_get_recent_courses
+$args139=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limit' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'offset' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'sort' =>		'', //		PARAM_MULTILANG	VALUE_DEFAULT	[]
+	)
+;
+print_r($args139);
+
+
+// core_course_get_updates_since
+$args140=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'since' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'filter' =>		array(  // e_m_s
+			'', //		PARAM_ALPHANUM	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args140);
+
+
+// core_course_get_user_administration_options
+$args141=	array (   //e_s_s 
+	'courseids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args141);
+
+
+// core_course_get_user_navigation_options
+$args142=	array (   //e_s_s 
+	'courseids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args142);
+
+
+// core_course_import_course
+$args143=	array (   //e_s_s 
+	'importfrom' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'importto' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'deletecontent' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'options' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_ALPHA	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args143);
+
+
+// core_course_search_courses
+$args144=	array (   //e_s_s 
+	'criterianame' =>		'', //		PARAM_ALPHA	VALUE_REQUIRED	[]
+	'criteriavalue' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	'page' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'perpage' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'requiredcapabilities' =>		array(  // e_m_s
+			'', //		PARAM_CAPABILITY	VALUE_REQUIRED	[]
+		 ),
+	'limittoenrolled' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args144);
+
+
+// core_course_set_favourite_courses
+$args145=	array (   //e_s_s 
+	'courses' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'id' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'favourite' =>				true, //		PARAM_BOOL	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args145);
+
+
+// core_course_update_categories
+$args146=	array (   //e_s_s 
+	'categories' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'id' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'name' =>				'', //		PARAM_MULTILANG	VALUE_OPTIONAL	[]
+			'idnumber' =>				'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+			'parent' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'description' =>				'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+			'descriptionformat' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+			'theme' =>				'', //		PARAM_THEME	VALUE_OPTIONAL	[]
+			),
+		 ),
+	)
+;
+print_r($args146);
+
+
+// core_course_update_courses
+$args147=	array (   //e_s_s 
+	'courses' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'id' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'fullname' =>				'', //		PARAM_MULTILANG	VALUE_OPTIONAL	[]
+			'shortname' =>				'', //		PARAM_MULTILANG	VALUE_OPTIONAL	[]
+			'categoryid' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'idnumber' =>				'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+			'summary' =>				'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+			'summaryformat' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'format' =>				'', //		PARAM_PLUGIN	VALUE_OPTIONAL	[]
+			'showgrades' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'newsitems' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'startdate' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'enddate' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'numsections' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'maxbytes' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'showreports' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'visible' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'hiddensections' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'groupmode' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'groupmodeforce' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'defaultgroupingid' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'enablecompletion' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'completionnotify' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'lang' =>				'', //		PARAM_SAFEDIR	VALUE_OPTIONAL	[]
+			'forcetheme' =>				'', //		PARAM_PLUGIN	VALUE_OPTIONAL	[]
+			'courseformatoptions' =>				array(  // e_m_s
+					array (   //e_s_s 
+					'name' =>						'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+					'value' =>						'', //		PARAM_RAW	VALUE_REQUIRED	[]
+					),
+				 ),
+			),
+		 ),
+	)
+;
+print_r($args147);
+
+
+// core_course_view_course
+$args148=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'sectionnumber' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args148);
+
+
+// core_enrol_edit_user_enrolment
+$args149=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'ueid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'status' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'timestart' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'timeend' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args149);
+
+
+// core_enrol_get_course_enrolment_methods
+$args150=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args150);
+
+
+// core_enrol_get_enrolled_users
+$args151=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'options' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args151);
+
+
+// core_enrol_get_enrolled_users_with_capability
+$args152=	array (   //e_s_s 
+	'coursecapabilities' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'courseid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'capabilities' =>				array(  // e_m_s
+					'', //		PARAM_CAPABILITY	VALUE_REQUIRED	[]
+				 ),
+			),
+		 ),
+	'options' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args152);
+
+
+// core_enrol_get_potential_users
+$args153=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'enrolid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'search' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	'searchanywhere' =>		true, //		PARAM_BOOL	VALUE_REQUIRED	[]
+	'page' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'perpage' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args153);
+
+
+// core_enrol_get_users_courses
+$args154=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args154);
+
+
+// core_enrol_unenrol_user_enrolment
+$args155=	array (   //e_s_s 
+	'ueid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args155);
+
+
+// core_fetch_notifications
+$args156=	array (   //e_s_s 
+	'contextid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args156);
+
+
+// core_files_get_files
+$args157=	array (   //e_s_s 
+	'contextid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'component' =>		'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+	'filearea' =>		'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+	'itemid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'filepath' =>		'', //		PARAM_PATH	VALUE_REQUIRED	[]
+	'filename' =>		'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+	'modified' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	'contextlevel' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[]
+	'instanceid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	)
+;
+print_r($args157);
+
+
+// core_files_upload
+$args158=	array (   //e_s_s 
+	'contextid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	'component' =>		'', //		PARAM_COMPONENT	VALUE_REQUIRED	[]
+	'filearea' =>		'', //		PARAM_AREA	VALUE_REQUIRED	[]
+	'itemid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'filepath' =>		'', //		PARAM_PATH	VALUE_REQUIRED	[]
+	'filename' =>		'', //		PARAM_CLEANFILE	VALUE_REQUIRED	[]
+	'filecontent' =>		'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+	'contextlevel' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[]
+	'instanceid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	)
+;
+print_r($args158);
+
+
+// core_filters_get_available_in_context
+$args159=	array (   //e_s_s 
+	'contexts' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'contextlevel' =>				'', //		PARAM_ALPHA	VALUE_REQUIRED	[]
+			'instanceid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args159);
+
+
+// core_form_get_filetypes_browser_data
+$args160=	array (   //e_s_s 
+	'onlytypes' =>		'', //		PARAM_RAW	VALUE_DEFAULT	[]
+	'allowall' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[1]
+	'current' =>		'', //		PARAM_RAW	VALUE_DEFAULT	[]
+	)
+;
+print_r($args160);
+
+
+// core_get_component_strings
+$args161=	array (   //e_s_s 
+	'component' =>		'', //		PARAM_COMPONENT	VALUE_REQUIRED	[]
+	'lang' =>		'', //		PARAM_LANG	VALUE_DEFAULT	[]
+	)
+;
+print_r($args161);
+
+
+// core_get_fragment
+$args162=	array (   //e_s_s 
+	'component' =>		'', //		PARAM_COMPONENT	VALUE_REQUIRED	[]
+	'callback' =>		'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+	'contextid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'args' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args162);
+
+
+// core_get_string
+$args163=	array (   //e_s_s 
+	'stringid' =>		'', //		PARAM_STRINGID	VALUE_REQUIRED	[]
+	'component' =>		'', //		PARAM_COMPONENT	VALUE_DEFAULT	[moodle]
+	'lang' =>		'', //		PARAM_LANG	VALUE_DEFAULT	[]
+	'stringparams' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_FORMAT	VALUE_OPTIONAL	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args163);
+
+
+// core_get_strings
+$args164=	array (   //e_s_s 
+	'strings' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'stringid' =>				'', //		PARAM_STRINGID	VALUE_REQUIRED	[]
+			'component' =>				'', //		PARAM_COMPONENT	VALUE_DEFAULT	[moodle]
+			'lang' =>				'', //		PARAM_LANG	VALUE_DEFAULT	[]
+			'stringparams' =>				array(  // e_m_s
+					array (   //e_s_s 
+					'name' =>						'', //		PARAM_FORMAT	VALUE_OPTIONAL	[]
+					'value' =>						'', //		PARAM_RAW	VALUE_REQUIRED	[]
+					),
+				 ),
+			),
+		 ),
+	)
+;
+print_r($args164);
+
+
+// core_get_user_dates
+$args165=	array (   //e_s_s 
+	'contextid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'contextlevel' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[]
+	'instanceid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'timestamps' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'timestamp' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'format' =>				'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args165);
+
+
+// core_grades_get_grades
+$args166=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'component' =>		'', //		PARAM_COMPONENT	VALUE_DEFAULT	[]
+	'activityid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	'userids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args166);
+
+
+// core_grades_update_grades
+$args167=	array (   //e_s_s 
+	'source' =>		'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'component' =>		'', //		PARAM_COMPONENT	VALUE_REQUIRED	[]
+	'activityid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'itemnumber' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'grades' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'studentid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'grade' =>				1, //		PARAM_NUMBER	VALUE_REQUIRED	[]
+			'str_feedback' =>				'', //		PARAM_MULTILANG	VALUE_OPTIONAL	[]
+			),
+		 ),
+	'itemdetails' =>		array (   //e_s_s 
+		'itemname' =>			'', //		PARAM_FORMAT	VALUE_OPTIONAL	[]
+		'idnumber' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'gradetype' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'grademax' =>			1, //		PARAM_NUMBER	VALUE_OPTIONAL	[]
+		'grademin' =>			1, //		PARAM_NUMBER	VALUE_OPTIONAL	[]
+		'scaleid' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		'multfactor' =>			1, //		PARAM_NUMBER	VALUE_OPTIONAL	[]
+		'plusfactor' =>			1, //		PARAM_NUMBER	VALUE_OPTIONAL	[]
+		'deleted' =>			true, //		PARAM_BOOL	VALUE_OPTIONAL	[]
+		'hidden' =>			true, //		PARAM_BOOL	VALUE_OPTIONAL	[]
+		),
+	)
+;
+print_r($args167);
+
+
+// core_grading_get_definitions
+$args168=	array (   //e_s_s 
+	'cmids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	'areaname' =>		'', //		PARAM_AREA	VALUE_REQUIRED	[]
+	'activeonly' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args168);
+
+
+// core_grading_get_gradingform_instances
+$args169=	array (   //e_s_s 
+	'definitionid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'since' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args169);
+
+
+// core_grading_save_definitions
+$args170=	array (   //e_s_s 
+	'areas' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'cmid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'contextid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'component' =>				'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+			'areaname' =>				'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+			'activemethod' =>				'', //		PARAM_MULTILANG	VALUE_OPTIONAL	[]
+			'definitions' =>				array(  // e_m_s
+					array (   //e_s_s 
+					'id' =>						1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+					'method' =>						'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+					'name' =>						'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+					'description' =>						'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+					'descriptionformat' =>						1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+					'status' =>						1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+					'copiedfromid' =>						1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+					'timecreated' =>						1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+					'usercreated' =>						1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+					'timemodified' =>						1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+					'usermodified' =>						1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+					'timecopied' =>						1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+					'guide' =>						array (   //e_s_s 
+						'guide_criteria' =>							array(  // e_m_s
+								array (   //e_s_s 
+								'id' =>									1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+								'sortorder' =>									1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+								'description' =>									'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+								'descriptionformat' =>									1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+								'shortname' =>									'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+								'descriptionmarkers' =>									'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+								'descriptionmarkersformat' =>									1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+								'maxscore' =>									1, //		PARAM_NUMBER	VALUE_REQUIRED	[]
+								),
+							 ),
+						'guide_comments' =>							array(  // e_m_s
+								array (   //e_s_s 
+								'id' =>									1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+								'sortorder' =>									1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+								'description' =>									'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+								'descriptionformat' =>									1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+								),
+							 ),
+						),
+					'rubric' =>						array (   //e_s_s 
+						'rubric_criteria' =>							array(  // e_m_s
+								array (   //e_s_s 
+								'id' =>									1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+								'sortorder' =>									1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+								'description' =>									'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+								'descriptionformat' =>									1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+								'levels' =>									array(  // e_m_s
+										array (   //e_s_s 
+										'id' =>											1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+										'score' =>											1, //		PARAM_NUMBER	VALUE_OPTIONAL	[]
+										'definition' =>											'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+										'definitionformat' =>											1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+										),
+									 ),
+								),
+							 ),
+						),
+					),
+				 ),
+			),
+		 ),
+	)
+;
+print_r($args170);
+
+
+// core_group_add_group_members
+$args171=	array (   //e_s_s 
+	'members' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'groupid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'userid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args171);
+
+
+// core_group_assign_grouping
+$args172=	array (   //e_s_s 
+	'assignments' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'groupingid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'groupid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args172);
+
+
+// core_group_create_groupings
+$args173=	array (   //e_s_s 
+	'groupings' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'courseid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'name' =>				'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+			'description' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			'descriptionformat' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+			'idnumber' =>				'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+			),
+		 ),
+	)
+;
+print_r($args173);
+
+
+// core_group_create_groups
+$args174=	array (   //e_s_s 
+	'groups' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'courseid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'name' =>				'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+			'description' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			'descriptionformat' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+			'enrolmentkey' =>				'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+			'idnumber' =>				'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+			),
+		 ),
+	)
+;
+print_r($args174);
+
+
+// core_group_delete_group_members
+$args175=	array (   //e_s_s 
+	'members' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'groupid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'userid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args175);
+
+
+// core_group_delete_groupings
+$args176=	array (   //e_s_s 
+	'groupingids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args176);
+
+
+// core_group_delete_groups
+$args177=	array (   //e_s_s 
+	'groupids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args177);
+
+
+// core_group_get_activity_allowed_groups
+$args178=	array (   //e_s_s 
+	'cmid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args178);
+
+
+// core_group_get_activity_groupmode
+$args179=	array (   //e_s_s 
+	'cmid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args179);
+
+
+// core_group_get_course_groupings
+$args180=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args180);
+
+
+// core_group_get_course_groups
+$args181=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args181);
+
+
+// core_group_get_course_user_groups
+$args182=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'groupingid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args182);
+
+
+// core_group_get_group_members
+$args183=	array (   //e_s_s 
+	'groupids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args183);
+
+
+// core_group_get_groupings
+$args184=	array (   //e_s_s 
+	'groupingids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	'returngroups' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args184);
+
+
+// core_group_get_groups
+$args185=	array (   //e_s_s 
+	'groupids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args185);
+
+
+// core_group_unassign_grouping
+$args186=	array (   //e_s_s 
+	'unassignments' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'groupingid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'groupid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args186);
+
+
+// core_group_update_groupings
+$args187=	array (   //e_s_s 
+	'groupings' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'id' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'name' =>				'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+			'description' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			'descriptionformat' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+			'idnumber' =>				'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+			),
+		 ),
+	)
+;
+print_r($args187);
+
+
+// core_group_update_groups
+$args188=	array (   //e_s_s 
+	'groups' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'id' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'name' =>				'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+			'description' =>				'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+			'descriptionformat' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+			'enrolmentkey' =>				'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+			'idnumber' =>				'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+			),
+		 ),
+	)
+;
+print_r($args188);
+
+
+// core_message_block_contacts
+$args189=	array (   //e_s_s 
+	'userids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args189);
+
+
+// core_message_block_user
+$args190=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'blockeduserid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args190);
+
+
+// core_message_confirm_contact_request
+$args191=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'requesteduserid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args191);
+
+
+// core_message_create_contact_request
+$args192=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'requesteduserid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args192);
+
+
+// core_message_create_contacts
+$args193=	array (   //e_s_s 
+	'userids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args193);
+
+
+// core_message_data_for_messagearea_contacts
+$args194=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'limitfrom' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limitnum' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args194);
+
+
+// core_message_data_for_messagearea_conversations
+$args195=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'limitfrom' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limitnum' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args195);
+
+
+// core_message_data_for_messagearea_get_most_recent_message
+$args196=	array (   //e_s_s 
+	'currentuserid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'otheruserid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args196);
+
+
+// core_message_data_for_messagearea_get_profile
+$args197=	array (   //e_s_s 
+	'currentuserid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'otheruserid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args197);
+
+
+// core_message_data_for_messagearea_messages
+$args198=	array (   //e_s_s 
+	'currentuserid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'otheruserid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'limitfrom' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limitnum' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'newest' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	'timefrom' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args198);
+
+
+// core_message_data_for_messagearea_search_messages
+$args199=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'search' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	'limitfrom' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limitnum' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args199);
+
+
+// core_message_data_for_messagearea_search_users
+$args200=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'search' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	'limitnum' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args200);
+
+
+// core_message_data_for_messagearea_search_users_in_course
+$args201=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'search' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	'limitfrom' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limitnum' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args201);
+
+
+// core_message_decline_contact_request
+$args202=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'requesteduserid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args202);
+
+
+// core_message_delete_contacts
+$args203=	array (   //e_s_s 
+	'userids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args203);
+
+
+// core_message_delete_conversation
+$args204=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'otheruserid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args204);
+
+
+// core_message_delete_conversations_by_id
+$args205=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'conversationids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args205);
+
+
+// core_message_delete_message
+$args206=	array (   //e_s_s 
+	'messageid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'read' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[1]
+	)
+;
+print_r($args206);
+
+
+// core_message_get_blocked_users
+$args207=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args207);
+
+
+// core_message_get_contact_requests
+$args208=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'limitfrom' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limitnum' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args208);
+
+
+// core_message_get_contacts
+$args209=	array (   //e_s_s 
+	)
+;
+print_r($args209);
+
+
+// core_message_get_conversation
+$args210=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'conversationid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'includecontactrequests' =>		true, //		PARAM_BOOL	VALUE_REQUIRED	[]
+	'includeprivacyinfo' =>		true, //		PARAM_BOOL	VALUE_REQUIRED	[]
+	'memberlimit' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'memberoffset' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'messagelimit' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[100]
+	'messageoffset' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'newestmessagesfirst' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[1]
+	)
+;
+print_r($args210);
+
+
+// core_message_get_conversation_between_users
+$args211=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'otheruserid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'includecontactrequests' =>		true, //		PARAM_BOOL	VALUE_REQUIRED	[]
+	'includeprivacyinfo' =>		true, //		PARAM_BOOL	VALUE_REQUIRED	[]
+	'memberlimit' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'memberoffset' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'messagelimit' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[100]
+	'messageoffset' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'newestmessagesfirst' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[1]
+	)
+;
+print_r($args211);
+
+
+// core_message_get_conversation_counts
+$args212=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args212);
+
+
+// core_message_get_conversation_members
+$args213=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'conversationid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'includecontactrequests' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	'includeprivacyinfo' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	'limitfrom' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limitnum' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args213);
+
+
+// core_message_get_conversation_messages
+$args214=	array (   //e_s_s 
+	'currentuserid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'convid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'limitfrom' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limitnum' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'newest' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	'timefrom' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args214);
+
+
+// core_message_get_conversations
+$args215=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'limitfrom' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limitnum' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'type' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	'favourites' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args215);
+
+
+// core_message_get_member_info
+$args216=	array (   //e_s_s 
+	'referenceuserid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	'includecontactrequests' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	'includeprivacyinfo' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args216);
+
+
+// core_message_get_message_processor
+$args217=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'name' =>		'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+	)
+;
+print_r($args217);
+
+
+// core_message_get_messages
+$args218=	array (   //e_s_s 
+	'useridto' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'useridfrom' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'type' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[both]
+	'read' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[1]
+	'newestfirst' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[1]
+	'limitfrom' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limitnum' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args218);
+
+
+// core_message_get_received_contact_requests_count
+$args219=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args219);
+
+
+// core_message_get_unread_conversation_counts
+$args220=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args220);
+
+
+// core_message_get_unread_conversations_count
+$args221=	array (   //e_s_s 
+	'useridto' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args221);
+
+
+// core_message_get_user_contacts
+$args222=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'limitfrom' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limitnum' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args222);
+
+
+// core_message_get_user_message_preferences
+$args223=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args223);
+
+
+// core_message_get_user_notification_preferences
+$args224=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args224);
+
+
+// core_message_mark_all_conversation_messages_as_read
+$args225=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'conversationid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args225);
+
+
+// core_message_mark_all_messages_as_read
+$args226=	array (   //e_s_s 
+	'useridto' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'useridfrom' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args226);
+
+
+// core_message_mark_all_notifications_as_read
+$args227=	array (   //e_s_s 
+	'useridto' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'useridfrom' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args227);
+
+
+// core_message_mark_message_read
+$args228=	array (   //e_s_s 
+	'messageid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'timeread' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args228);
+
+
+// core_message_mark_notification_read
+$args229=	array (   //e_s_s 
+	'notificationid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'timeread' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args229);
+
+
+// core_message_message_processor_config_form
+$args230=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'name' =>		'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+	'formvalues' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args230);
+
+
+// core_message_message_search_users
+$args231=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'search' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	'limitfrom' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limitnum' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args231);
+
+
+// core_message_search_contacts
+$args232=	array (   //e_s_s 
+	'searchtext' =>		'', //		PARAM_CLEAN	VALUE_REQUIRED	[]
+	'onlymycourses' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args232);
+
+
+// core_message_send_instant_messages
+$args233=	array (   //e_s_s 
+	'messages' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'touserid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'text' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			'textformat' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+			'clientmsgid' =>				'', //		PARAM_FORMAT	VALUE_OPTIONAL	[]
+			),
+		 ),
+	)
+;
+print_r($args233);
+
+
+// core_message_send_messages_to_conversation
+$args234=	array (   //e_s_s 
+	'conversationid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'messages' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'text' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			'textformat' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+			),
+		 ),
+	)
+;
+print_r($args234);
+
+
+// core_message_set_favourite_conversations
+$args235=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'conversations' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		 ),
+	)
+;
+print_r($args235);
+
+
+// core_message_unblock_contacts
+$args236=	array (   //e_s_s 
+	'userids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args236);
+
+
+// core_message_unblock_user
+$args237=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'unblockeduserid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args237);
+
+
+// core_message_unset_favourite_conversations
+$args238=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'conversations' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		 ),
+	)
+;
+print_r($args238);
+
+
+// core_notes_create_notes
+$args239=	array (   //e_s_s 
+	'notes' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'userid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'publishstate' =>				'', //		PARAM_ALPHA	VALUE_REQUIRED	[]
+			'courseid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'text' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			'format' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+			'clientnoteid' =>				'', //		PARAM_FORMAT	VALUE_OPTIONAL	[]
+			),
+		 ),
+	)
+;
+print_r($args239);
+
+
+// core_notes_delete_notes
+$args240=	array (   //e_s_s 
+	'notes' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args240);
+
+
+// core_notes_get_course_notes
+$args241=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args241);
+
+
+// core_notes_get_notes
+$args242=	array (   //e_s_s 
+	'notes' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args242);
+
+
+// core_notes_update_notes
+$args243=	array (   //e_s_s 
+	'notes' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'id' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'publishstate' =>				'', //		PARAM_ALPHA	VALUE_REQUIRED	[]
+			'text' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			'format' =>				1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+			),
+		 ),
+	)
+;
+print_r($args243);
+
+
+// core_notes_view_notes
+$args244=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args244);
+
+
+// core_output_load_fontawesome_icon_map
+$args245=	array (   //e_s_s 
+	)
+;
+print_r($args245);
+
+
+// core_output_load_template
+$args246=	array (   //e_s_s 
+	'component' =>		'', //		PARAM_COMPONENT	VALUE_REQUIRED	[]
+	'template' =>		'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+	'themename' =>		'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+	'includecomments' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args246);
+
+
+// core_question_get_random_question_summaries
+$args247=	array (   //e_s_s 
+	'categoryid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'includesubcategories' =>		true, //		PARAM_BOOL	VALUE_REQUIRED	[]
+	'tagids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	'contextid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'limit' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'offset' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args247);
+
+
+// core_question_submit_tags_form
+$args248=	array (   //e_s_s 
+	'questionid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'contextid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'formdata' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	)
+;
+print_r($args248);
+
+
+// core_question_update_flag
+$args249=	array (   //e_s_s 
+	'qubaid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'questionid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'qaid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'slot' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'checksum' =>		'', //		PARAM_ALPHANUM	VALUE_REQUIRED	[]
+	'newstate' =>		true, //		PARAM_BOOL	VALUE_REQUIRED	[]
+	)
+;
+print_r($args249);
+
+
+// core_rating_add_rating
+$args250=	array (   //e_s_s 
+	'contextlevel' =>		'', //		PARAM_ALPHA	VALUE_REQUIRED	[]
+	'instanceid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'component' =>		'', //		PARAM_COMPONENT	VALUE_REQUIRED	[]
+	'ratingarea' =>		'', //		PARAM_AREA	VALUE_REQUIRED	[]
+	'itemid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'scaleid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'rating' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'rateduserid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'aggregation' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args250);
+
+
+// core_rating_get_item_ratings
+$args251=	array (   //e_s_s 
+	'contextlevel' =>		'', //		PARAM_ALPHA	VALUE_REQUIRED	[]
+	'instanceid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'component' =>		'', //		PARAM_COMPONENT	VALUE_REQUIRED	[]
+	'ratingarea' =>		'', //		PARAM_AREA	VALUE_REQUIRED	[]
+	'itemid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'scaleid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'sort' =>		'', //		PARAM_ALPHA	VALUE_REQUIRED	[]
+	)
+;
+print_r($args251);
+
+
+// core_role_assign_roles
+$args252=	array (   //e_s_s 
+	'assignments' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'roleid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'userid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'contextid' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'contextlevel' =>				'', //		PARAM_ALPHA	VALUE_OPTIONAL	[]
+			'instanceid' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			),
+		 ),
+	)
+;
+print_r($args252);
+
+
+// core_role_unassign_roles
+$args253=	array (   //e_s_s 
+	'unassignments' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'roleid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'userid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'contextid' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'contextlevel' =>				'', //		PARAM_ALPHA	VALUE_OPTIONAL	[]
+			'instanceid' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			),
+		 ),
+	)
+;
+print_r($args253);
+
+
+// core_search_get_relevant_users
+$args254=	array (   //e_s_s 
+	'query' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args254);
+
+
+// core_tag_get_tagindex
+$args255=	array (   //e_s_s 
+	'tagindex' =>		array (   //e_s_s 
+		'tag' =>			'', //		PARAM_TAG	VALUE_REQUIRED	[]
+		'tc' =>			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		'ta' =>			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		'excl' =>			true, //		PARAM_BOOL	VALUE_OPTIONAL	[0]
+		'from' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[0]
+		'ctx' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[0]
+		'rec' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[1]
+		'page' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[0]
+		),
+	)
+;
+print_r($args255);
+
+
+// core_tag_get_tags
+$args256=	array (   //e_s_s 
+	'tags' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'id' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args256);
+
+
+// core_tag_update_tags
+$args257=	array (   //e_s_s 
+	'tags' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'id' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'rawname' =>				'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+			'description' =>				'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+			'descriptionformat' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'flag' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'official' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'isstandard' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			),
+		 ),
+	)
+;
+print_r($args257);
+
+
+// core_update_inplace_editable
+$args258=	array (   //e_s_s 
+	'component' =>		'', //		PARAM_COMPONENT	VALUE_REQUIRED	[]
+	'itemtype' =>		'', //		PARAM_NOTAGS	VALUE_REQUIRED	[]
+	'itemid' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	'value' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	)
+;
+print_r($args258);
+
+
+// core_user_add_user_device
+$args259=	array (   //e_s_s 
+	'appid' =>		'', //		PARAM_NOTAGS	VALUE_REQUIRED	[]
+	'name' =>		'', //		PARAM_NOTAGS	VALUE_REQUIRED	[]
+	'model' =>		'', //		PARAM_NOTAGS	VALUE_REQUIRED	[]
+	'platform' =>		'', //		PARAM_NOTAGS	VALUE_REQUIRED	[]
+	'version' =>		'', //		PARAM_NOTAGS	VALUE_REQUIRED	[]
+	'pushid' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	'uuid' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	)
+;
+print_r($args259);
+
+
+// core_user_add_user_private_files
+$args260=	array (   //e_s_s 
+	'draftid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args260);
+
+
+// core_user_agree_site_policy
+$args261=	array (   //e_s_s 
+	)
+;
+print_r($args261);
+
+
+// core_user_create_users
+$args262=	array (   //e_s_s 
+	'users' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'createpassword' =>				true, //		PARAM_BOOL	VALUE_OPTIONAL	[]
+			'username' =>				'', //		PARAM_USERNAME	VALUE_REQUIRED	[]
+			'auth' =>				'', //		PARAM_AUTH	VALUE_DEFAULT	[manual]
+			'password' =>				'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+			'firstname' =>				'', //		PARAM_NOTAGS	VALUE_REQUIRED	[]
+			'lastname' =>				'', //		PARAM_NOTAGS	VALUE_REQUIRED	[]
+			'email' =>				'', //		PARAM_RAW_TRIMMED	VALUE_REQUIRED	[]
+			'maildisplay' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'city' =>				'', //		PARAM_MULTILANG	VALUE_OPTIONAL	[]
+			'country' =>				'', //		PARAM_ALPHA	VALUE_OPTIONAL	[]
+			'timezone' =>				'', //		PARAM_TIMEZONE	VALUE_OPTIONAL	[]
+			'description' =>				'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+			'firstnamephonetic' =>				'', //		PARAM_NOTAGS	VALUE_OPTIONAL	[]
+			'lastnamephonetic' =>				'', //		PARAM_NOTAGS	VALUE_OPTIONAL	[]
+			'middlename' =>				'', //		PARAM_NOTAGS	VALUE_OPTIONAL	[]
+			'alternatename' =>				'', //		PARAM_NOTAGS	VALUE_OPTIONAL	[]
+			'interests' =>				'', //		PARAM_MULTILANG	VALUE_OPTIONAL	[]
+			'url' =>				'', //		PARAM_URL	VALUE_OPTIONAL	[]
+			'icq' =>				'', //		PARAM_NOTAGS	VALUE_OPTIONAL	[]
+			'skype' =>				'', //		PARAM_NOTAGS	VALUE_OPTIONAL	[]
+			'aim' =>				'', //		PARAM_NOTAGS	VALUE_OPTIONAL	[]
+			'yahoo' =>				'', //		PARAM_NOTAGS	VALUE_OPTIONAL	[]
+			'msn' =>				'', //		PARAM_NOTAGS	VALUE_OPTIONAL	[]
+			'idnumber' =>				'', //		PARAM_RAW	VALUE_DEFAULT	[]
+			'institution' =>				'', //		PARAM_MULTILANG	VALUE_OPTIONAL	[]
+			'department' =>				'', //		PARAM_MULTILANG	VALUE_OPTIONAL	[]
+			'phone1' =>				'', //		PARAM_NOTAGS	VALUE_OPTIONAL	[]
+			'phone2' =>				'', //		PARAM_NOTAGS	VALUE_OPTIONAL	[]
+			'address' =>				'', //		PARAM_MULTILANG	VALUE_OPTIONAL	[]
+			'lang' =>				'', //		PARAM_LANG	VALUE_DEFAULT	[en]
+			'calendartype' =>				'', //		PARAM_PLUGIN	VALUE_DEFAULT	[gregorian]
+			'theme' =>				'', //		PARAM_THEME	VALUE_OPTIONAL	[]
+			'mailformat' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'customfields' =>				array(  // e_m_s
+					array (   //e_s_s 
+					'type' =>						'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+					'value' =>						'', //		PARAM_RAW	VALUE_REQUIRED	[]
+					),
+				 ),
+			'preferences' =>				array(  // e_m_s
+					array (   //e_s_s 
+					'type' =>						'', //		PARAM_RAW	VALUE_REQUIRED	[]
+					'value' =>						'', //		PARAM_RAW	VALUE_REQUIRED	[]
+					),
+				 ),
+			),
+		 ),
+	)
+;
+print_r($args262);
+
+
+// core_user_delete_users
+$args263=	array (   //e_s_s 
+	'userids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args263);
+
+
+// core_user_get_course_user_profiles
+$args264=	array (   //e_s_s 
+	'userlist' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'userid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'courseid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args264);
+
+
+// core_user_get_private_files_info
+$args265=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args265);
+
+
+// core_user_get_user_preferences
+$args266=	array (   //e_s_s 
+	'name' =>		'', //		PARAM_RAW	VALUE_DEFAULT	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args266);
+
+
+// core_user_get_users
+$args267=	array (   //e_s_s 
+	'criteria' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'key' =>				'', //		PARAM_ALPHA	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args267);
+
+
+// core_user_get_users_by_field
+$args268=	array (   //e_s_s 
+	'field' =>		'', //		PARAM_ALPHA	VALUE_REQUIRED	[]
+	'values' =>		array(  // e_m_s
+			'', //		PARAM_RAW	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args268);
+
+
+// core_user_remove_user_device
+$args269=	array (   //e_s_s 
+	'uuid' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	'appid' =>		'', //		PARAM_NOTAGS	VALUE_DEFAULT	[]
+	)
+;
+print_r($args269);
+
+
+// core_user_set_user_preferences
+$args270=	array (   //e_s_s 
+	'preferences' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			'userid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args270);
+
+
+// core_user_update_picture
+$args271=	array (   //e_s_s 
+	'draftitemid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'delete' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args271);
+
+
+// core_user_update_user_preferences
+$args272=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'emailstop' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	'preferences' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'type' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_DEFAULT	[]
+			),
+		 ),
+	)
+;
+print_r($args272);
+
+
+// core_user_update_users
+$args273=	array (   //e_s_s 
+	'users' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'id' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'username' =>				'', //		PARAM_USERNAME	VALUE_OPTIONAL	[]
+			'auth' =>				'', //		PARAM_AUTH	VALUE_OPTIONAL	[]
+			'suspended' =>				true, //		PARAM_BOOL	VALUE_OPTIONAL	[]
+			'password' =>				'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+			'firstname' =>				'', //		PARAM_NOTAGS	VALUE_OPTIONAL	[]
+			'lastname' =>				'', //		PARAM_NOTAGS	VALUE_OPTIONAL	[]
+			'email' =>				'', //		PARAM_RAW_TRIMMED	VALUE_OPTIONAL	[]
+			'maildisplay' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'city' =>				'', //		PARAM_MULTILANG	VALUE_OPTIONAL	[]
+			'country' =>				'', //		PARAM_ALPHA	VALUE_OPTIONAL	[]
+			'timezone' =>				'', //		PARAM_TIMEZONE	VALUE_OPTIONAL	[]
+			'description' =>				'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+			'userpicture' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'firstnamephonetic' =>				'', //		PARAM_NOTAGS	VALUE_OPTIONAL	[]
+			'lastnamephonetic' =>				'', //		PARAM_NOTAGS	VALUE_OPTIONAL	[]
+			'middlename' =>				'', //		PARAM_NOTAGS	VALUE_OPTIONAL	[]
+			'alternatename' =>				'', //		PARAM_NOTAGS	VALUE_OPTIONAL	[]
+			'interests' =>				'', //		PARAM_MULTILANG	VALUE_OPTIONAL	[]
+			'url' =>				'', //		PARAM_URL	VALUE_OPTIONAL	[]
+			'icq' =>				'', //		PARAM_NOTAGS	VALUE_OPTIONAL	[]
+			'skype' =>				'', //		PARAM_NOTAGS	VALUE_OPTIONAL	[]
+			'aim' =>				'', //		PARAM_NOTAGS	VALUE_OPTIONAL	[]
+			'yahoo' =>				'', //		PARAM_NOTAGS	VALUE_OPTIONAL	[]
+			'msn' =>				'', //		PARAM_NOTAGS	VALUE_OPTIONAL	[]
+			'idnumber' =>				'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+			'institution' =>				'', //		PARAM_MULTILANG	VALUE_OPTIONAL	[]
+			'department' =>				'', //		PARAM_MULTILANG	VALUE_OPTIONAL	[]
+			'phone1' =>				'', //		PARAM_NOTAGS	VALUE_OPTIONAL	[]
+			'phone2' =>				'', //		PARAM_NOTAGS	VALUE_OPTIONAL	[]
+			'address' =>				'', //		PARAM_MULTILANG	VALUE_OPTIONAL	[]
+			'lang' =>				'', //		PARAM_LANG	VALUE_OPTIONAL	[]
+			'calendartype' =>				'', //		PARAM_PLUGIN	VALUE_OPTIONAL	[]
+			'theme' =>				'', //		PARAM_THEME	VALUE_OPTIONAL	[]
+			'mailformat' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'customfields' =>				array(  // e_m_s
+					array (   //e_s_s 
+					'type' =>						'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+					'value' =>						'', //		PARAM_RAW	VALUE_REQUIRED	[]
+					),
+				 ),
+			'preferences' =>				array(  // e_m_s
+					array (   //e_s_s 
+					'type' =>						'', //		PARAM_RAW	VALUE_REQUIRED	[]
+					'value' =>						'', //		PARAM_RAW	VALUE_REQUIRED	[]
+					),
+				 ),
+			),
+		 ),
+	)
+;
+print_r($args273);
+
+
+// core_user_view_user_list
+$args274=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args274);
+
+
+// core_user_view_user_profile
+$args275=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args275);
+
+
+// core_webservice_get_site_info
+$args276=	array (   //e_s_s 
+	'serviceshortnames' =>		array(  // e_m_s
+			'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args276);
+
+
+// enrol_guest_get_instance_info
+$args277=	array (   //e_s_s 
+	'instanceid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args277);
+
+
+// enrol_manual_enrol_users
+$args278=	array (   //e_s_s 
+	'enrolments' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'roleid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'userid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'courseid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'timestart' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'timeend' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'suspend' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			),
+		 ),
+	)
+;
+print_r($args278);
+
+
+// enrol_manual_unenrol_users
+$args279=	array (   //e_s_s 
+	'enrolments' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'userid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'courseid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'roleid' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			),
+		 ),
+	)
+;
+print_r($args279);
+
+
+// enrol_self_enrol_user
+$args280=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'password' =>		'', //		PARAM_RAW	VALUE_DEFAULT	[]
+	'instanceid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args280);
+
+
+// enrol_self_get_instance_info
+$args281=	array (   //e_s_s 
+	'instanceid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args281);
+
+
+// gradereport_overview_get_course_grades
+$args282=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args282);
+
+
+// gradereport_overview_view_grade_report
+$args283=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args283);
+
+
+// gradereport_user_get_grade_items
+$args284=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'groupid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args284);
+
+
+// gradereport_user_get_grades_table
+$args285=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'groupid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args285);
+
+
+// gradereport_user_view_grade_report
+$args286=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args286);
+
+
+// message_airnotifier_are_notification_preferences_configured
+$args287=	array (   //e_s_s 
+	'userids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args287);
+
+
+// message_airnotifier_enable_device
+$args288=	array (   //e_s_s 
+	'deviceid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'enable' =>		true, //		PARAM_BOOL	VALUE_REQUIRED	[]
+	)
+;
+print_r($args288);
+
+
+// message_airnotifier_get_user_devices
+$args289=	array (   //e_s_s 
+	'appid' =>		'', //		PARAM_NOTAGS	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args289);
+
+
+// message_airnotifier_is_system_configured
+$args290=	array (   //e_s_s 
+	)
+;
+print_r($args290);
+
+
+// message_popup_get_popup_notifications
+$args291=	array (   //e_s_s 
+	'useridto' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'newestfirst' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[1]
+	'limit' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'offset' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args291);
+
+
+// message_popup_get_unread_popup_notification_count
+$args292=	array (   //e_s_s 
+	'useridto' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args292);
+
+
+// mod_assign_copy_previous_attempt
+$args293=	array (   //e_s_s 
+	'assignmentid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args293);
+
+
+// mod_assign_get_assignments
+$args294=	array (   //e_s_s 
+	'courseids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	'capabilities' =>		array(  // e_m_s
+			'', //		PARAM_CAPABILITY	VALUE_REQUIRED	[]
+		 ),
+	'includenotenrolledcourses' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args294);
+
+
+// mod_assign_get_grades
+$args295=	array (   //e_s_s 
+	'assignmentids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	'since' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args295);
+
+
+// mod_assign_get_participant
+$args296=	array (   //e_s_s 
+	'assignid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'embeduser' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args296);
+
+
+// mod_assign_get_submission_status
+$args297=	array (   //e_s_s 
+	'assignid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'groupid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args297);
+
+
+// mod_assign_get_submissions
+$args298=	array (   //e_s_s 
+	'assignmentids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	'status' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[]
+	'since' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'before' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args298);
+
+
+// mod_assign_get_user_flags
+$args299=	array (   //e_s_s 
+	'assignmentids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args299);
+
+
+// mod_assign_get_user_mappings
+$args300=	array (   //e_s_s 
+	'assignmentids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args300);
+
+
+// mod_assign_list_participants
+$args301=	array (   //e_s_s 
+	'assignid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'groupid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'filter' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	'skip' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limit' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'onlyids' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	'includeenrolments' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[1]
+	)
+;
+print_r($args301);
+
+
+// mod_assign_lock_submissions
+$args302=	array (   //e_s_s 
+	'assignmentid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args302);
+
+
+// mod_assign_reveal_identities
+$args303=	array (   //e_s_s 
+	'assignmentid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args303);
+
+
+// mod_assign_revert_submissions_to_draft
+$args304=	array (   //e_s_s 
+	'assignmentid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args304);
+
+
+// mod_assign_save_grade
+$args305=	array (   //e_s_s 
+	'assignmentid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'grade' =>		1, //		PARAM_NUMBER	VALUE_REQUIRED	[]
+	'attemptnumber' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'addattempt' =>		true, //		PARAM_BOOL	VALUE_REQUIRED	[]
+	'workflowstate' =>		'', //		PARAM_ALPHA	VALUE_REQUIRED	[]
+	'applytoall' =>		true, //		PARAM_BOOL	VALUE_REQUIRED	[]
+	'plugindata' =>		array (   //e_s_s 
+		'assignfeedbackcomments_editor' =>			array (   //e_s_s 
+			'text' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			'format' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			),
+		'files_filemanager' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		),
+	'advancedgradingdata' =>		array (   //e_s_s 
+		'guide' =>			array (   //e_s_s 
+			'criteria' =>				array(  // e_m_s
+					array (   //e_s_s 
+					'criterionid' =>						1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+					'fillings' =>						array(  // e_m_s
+							array (   //e_s_s 
+							'criterionid' =>								1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+							'levelid' =>								1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+							'remark' =>								'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+							'remarkformat' =>								1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+							'score' =>								1, //		PARAM_NUMBER	VALUE_REQUIRED	[]
+							),
+						 ),
+					),
+				 ),
+			),
+		'rubric' =>			array (   //e_s_s 
+			'criteria' =>				array(  // e_m_s
+					array (   //e_s_s 
+					'criterionid' =>						1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+					'fillings' =>						array(  // e_m_s
+							array (   //e_s_s 
+							'criterionid' =>								1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+							'levelid' =>								1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+							'remark' =>								'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+							'remarkformat' =>								1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+							),
+						 ),
+					),
+				 ),
+			),
+		),
+	)
+;
+print_r($args305);
+
+
+// mod_assign_save_grades
+$args306=	array (   //e_s_s 
+	'assignmentid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'applytoall' =>		true, //		PARAM_BOOL	VALUE_REQUIRED	[]
+	'grades' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'userid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'grade' =>				1, //		PARAM_NUMBER	VALUE_REQUIRED	[]
+			'attemptnumber' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'addattempt' =>				true, //		PARAM_BOOL	VALUE_REQUIRED	[]
+			'workflowstate' =>				'', //		PARAM_ALPHA	VALUE_REQUIRED	[]
+			'plugindata' =>				array (   //e_s_s 
+				'assignfeedbackcomments_editor' =>					array (   //e_s_s 
+					'text' =>						'', //		PARAM_RAW	VALUE_REQUIRED	[]
+					'format' =>						1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+					),
+				'files_filemanager' =>					1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+				),
+			'advancedgradingdata' =>				array (   //e_s_s 
+				'guide' =>					array (   //e_s_s 
+					'criteria' =>						array(  // e_m_s
+							array (   //e_s_s 
+							'criterionid' =>								1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+							'fillings' =>								array(  // e_m_s
+									array (   //e_s_s 
+									'criterionid' =>										1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+									'levelid' =>										1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+									'remark' =>										'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+									'remarkformat' =>										1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+									'score' =>										1, //		PARAM_NUMBER	VALUE_REQUIRED	[]
+									),
+								 ),
+							),
+						 ),
+					),
+				'rubric' =>					array (   //e_s_s 
+					'criteria' =>						array(  // e_m_s
+							array (   //e_s_s 
+							'criterionid' =>								1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+							'fillings' =>								array(  // e_m_s
+									array (   //e_s_s 
+									'criterionid' =>										1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+									'levelid' =>										1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+									'remark' =>										'', //		PARAM_RAW	VALUE_OPTIONAL	[]
+									'remarkformat' =>										1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+									),
+								 ),
+							),
+						 ),
+					),
+				),
+			),
+		 ),
+	)
+;
+print_r($args306);
+
+
+// mod_assign_save_submission
+$args307=	array (   //e_s_s 
+	'assignmentid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'plugindata' =>		array (   //e_s_s 
+		'onlinetext_editor' =>			array (   //e_s_s 
+			'text' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			'format' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'itemid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			),
+		'files_filemanager' =>			1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+		),
+	)
+;
+print_r($args307);
+
+
+// mod_assign_save_user_extensions
+$args308=	array (   //e_s_s 
+	'assignmentid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	'dates' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args308);
+
+
+// mod_assign_set_user_flags
+$args309=	array (   //e_s_s 
+	'assignmentid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userflags' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'userid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'locked' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'mailed' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'extensionduedate' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			'workflowstate' =>				'', //		PARAM_ALPHA	VALUE_OPTIONAL	[]
+			'allocatedmarker' =>				1, //		PARAM_INTEGER	VALUE_OPTIONAL	[]
+			),
+		 ),
+	)
+;
+print_r($args309);
+
+
+// mod_assign_submit_for_grading
+$args310=	array (   //e_s_s 
+	'assignmentid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'acceptsubmissionstatement' =>		true, //		PARAM_BOOL	VALUE_REQUIRED	[]
+	)
+;
+print_r($args310);
+
+
+// mod_assign_submit_grading_form
+$args311=	array (   //e_s_s 
+	'assignmentid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'jsonformdata' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	)
+;
+print_r($args311);
+
+
+// mod_assign_unlock_submissions
+$args312=	array (   //e_s_s 
+	'assignmentid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args312);
+
+
+// mod_assign_view_assign
+$args313=	array (   //e_s_s 
+	'assignid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args313);
+
+
+// mod_assign_view_grading_table
+$args314=	array (   //e_s_s 
+	'assignid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args314);
+
+
+// mod_assign_view_submission_status
+$args315=	array (   //e_s_s 
+	'assignid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args315);
+
+
+// mod_book_get_books_by_courses
+$args316=	array (   //e_s_s 
+	'courseids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args316);
+
+
+// mod_book_view_book
+$args317=	array (   //e_s_s 
+	'bookid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'chapterid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args317);
+
+
+// mod_chat_get_chat_latest_messages
+$args318=	array (   //e_s_s 
+	'chatsid' =>		'', //		PARAM_ALPHANUM	VALUE_REQUIRED	[]
+	'chatlasttime' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args318);
+
+
+// mod_chat_get_chat_users
+$args319=	array (   //e_s_s 
+	'chatsid' =>		'', //		PARAM_ALPHANUM	VALUE_REQUIRED	[]
+	)
+;
+print_r($args319);
+
+
+// mod_chat_get_chats_by_courses
+$args320=	array (   //e_s_s 
+	'courseids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args320);
+
+
+// mod_chat_get_session_messages
+$args321=	array (   //e_s_s 
+	'chatid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'sessionstart' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'sessionend' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'groupid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args321);
+
+
+// mod_chat_get_sessions
+$args322=	array (   //e_s_s 
+	'chatid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'groupid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'showall' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args322);
+
+
+// mod_chat_login_user
+$args323=	array (   //e_s_s 
+	'chatid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'groupid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args323);
+
+
+// mod_chat_send_chat_message
+$args324=	array (   //e_s_s 
+	'chatsid' =>		'', //		PARAM_ALPHANUM	VALUE_REQUIRED	[]
+	'messagetext' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	'beepid' =>		'', //		PARAM_RAW	VALUE_DEFAULT	[]
+	)
+;
+print_r($args324);
+
+
+// mod_chat_view_chat
+$args325=	array (   //e_s_s 
+	'chatid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args325);
+
+
+// mod_choice_delete_choice_responses
+$args326=	array (   //e_s_s 
+	'choiceid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'responses' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args326);
+
+
+// mod_choice_get_choice_options
+$args327=	array (   //e_s_s 
+	'choiceid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args327);
+
+
+// mod_choice_get_choice_results
+$args328=	array (   //e_s_s 
+	'choiceid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args328);
+
+
+// mod_choice_get_choices_by_courses
+$args329=	array (   //e_s_s 
+	'courseids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args329);
+
+
+// mod_choice_submit_choice_response
+$args330=	array (   //e_s_s 
+	'choiceid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'responses' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args330);
+
+
+// mod_choice_view_choice
+$args331=	array (   //e_s_s 
+	'choiceid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args331);
+
+
+// mod_data_add_entry
+$args332=	array (   //e_s_s 
+	'databaseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'groupid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'data' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'fieldid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'subfield' =>				'', //		PARAM_NOTAGS	VALUE_DEFAULT	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args332);
+
+
+// mod_data_approve_entry
+$args333=	array (   //e_s_s 
+	'entryid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'approve' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[1]
+	)
+;
+print_r($args333);
+
+
+// mod_data_delete_entry
+$args334=	array (   //e_s_s 
+	'entryid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args334);
+
+
+// mod_data_get_data_access_information
+$args335=	array (   //e_s_s 
+	'databaseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'groupid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args335);
+
+
+// mod_data_get_databases_by_courses
+$args336=	array (   //e_s_s 
+	'courseids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args336);
+
+
+// mod_data_get_entries
+$args337=	array (   //e_s_s 
+	'databaseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'groupid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'returncontents' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	'sort' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	'order' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[]
+	'page' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'perpage' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args337);
+
+
+// mod_data_get_entry
+$args338=	array (   //e_s_s 
+	'entryid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'returncontents' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args338);
+
+
+// mod_data_get_fields
+$args339=	array (   //e_s_s 
+	'databaseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args339);
+
+
+// mod_data_search_entries
+$args340=	array (   //e_s_s 
+	'databaseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'groupid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'returncontents' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	'search' =>		'', //		PARAM_NOTAGS	VALUE_DEFAULT	[]
+	'advsearch' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	'sort' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	'order' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[]
+	'page' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'perpage' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args340);
+
+
+// mod_data_update_entry
+$args341=	array (   //e_s_s 
+	'entryid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'data' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'fieldid' =>				1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+			'subfield' =>				'', //		PARAM_NOTAGS	VALUE_DEFAULT	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args341);
+
+
+// mod_data_view_database
+$args342=	array (   //e_s_s 
+	'databaseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args342);
+
+
+// mod_feedback_get_analysis
+$args343=	array (   //e_s_s 
+	'feedbackid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'groupid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args343);
+
+
+// mod_feedback_get_current_completed_tmp
+$args344=	array (   //e_s_s 
+	'feedbackid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args344);
+
+
+// mod_feedback_get_feedback_access_information
+$args345=	array (   //e_s_s 
+	'feedbackid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args345);
+
+
+// mod_feedback_get_feedbacks_by_courses
+$args346=	array (   //e_s_s 
+	'courseids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args346);
+
+
+// mod_feedback_get_finished_responses
+$args347=	array (   //e_s_s 
+	'feedbackid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args347);
+
+
+// mod_feedback_get_items
+$args348=	array (   //e_s_s 
+	'feedbackid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args348);
+
+
+// mod_feedback_get_last_completed
+$args349=	array (   //e_s_s 
+	'feedbackid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args349);
+
+
+// mod_feedback_get_non_respondents
+$args350=	array (   //e_s_s 
+	'feedbackid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'groupid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'sort' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[lastaccess]
+	'page' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'perpage' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args350);
+
+
+// mod_feedback_get_page_items
+$args351=	array (   //e_s_s 
+	'feedbackid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'page' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args351);
+
+
+// mod_feedback_get_responses_analysis
+$args352=	array (   //e_s_s 
+	'feedbackid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'groupid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'page' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'perpage' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args352);
+
+
+// mod_feedback_get_unfinished_responses
+$args353=	array (   //e_s_s 
+	'feedbackid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args353);
+
+
+// mod_feedback_launch_feedback
+$args354=	array (   //e_s_s 
+	'feedbackid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args354);
+
+
+// mod_feedback_process_page
+$args355=	array (   //e_s_s 
+	'feedbackid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'page' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'responses' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_NOTAGS	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	'goprevious' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args355);
+
+
+// mod_feedback_view_feedback
+$args356=	array (   //e_s_s 
+	'feedbackid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'moduleviewed' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args356);
+
+
+// mod_folder_get_folders_by_courses
+$args357=	array (   //e_s_s 
+	'courseids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args357);
+
+
+// mod_folder_view_folder
+$args358=	array (   //e_s_s 
+	'folderid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args358);
+
+
+// mod_forum_add_discussion
+$args359=	array (   //e_s_s 
+	'forumid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'subject' =>		'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+	'message' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	'groupid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'options' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_ALPHANUM	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args359);
+
+
+// mod_forum_add_discussion_post
+$args360=	array (   //e_s_s 
+	'postid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'subject' =>		'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+	'message' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	'options' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_ALPHANUM	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args360);
+
+
+// mod_forum_can_add_discussion
+$args361=	array (   //e_s_s 
+	'forumid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'groupid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	)
+;
+print_r($args361);
+
+
+// mod_forum_get_forum_discussion_posts
+$args362=	array (   //e_s_s 
+	'discussionid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'sortby' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[created]
+	'sortdirection' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[DESC]
+	)
+;
+print_r($args362);
+
+
+// mod_forum_get_forum_discussions_paginated
+$args363=	array (   //e_s_s 
+	'forumid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'sortby' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[timemodified]
+	'sortdirection' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[DESC]
+	'page' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[-1]
+	'perpage' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args363);
+
+
+// mod_forum_get_forums_by_courses
+$args364=	array (   //e_s_s 
+	'courseids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args364);
+
+
+// mod_forum_view_forum
+$args365=	array (   //e_s_s 
+	'forumid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args365);
+
+
+// mod_forum_view_forum_discussion
+$args366=	array (   //e_s_s 
+	'discussionid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args366);
+
+
+// mod_glossary_add_entry
+$args367=	array (   //e_s_s 
+	'glossaryid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'concept' =>		'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+	'definition' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	'definitionformat' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'options' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_ALPHANUM	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args367);
+
+
+// mod_glossary_get_authors
+$args368=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'from' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limit' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[20]
+	'options' =>		array (   //e_s_s 
+		'includenotapproved' =>			true, //		PARAM_BOOL	VALUE_DEFAULT	[0]
+		),
+	)
+;
+print_r($args368);
+
+
+// mod_glossary_get_categories
+$args369=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'from' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limit' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[20]
+	)
+;
+print_r($args369);
+
+
+// mod_glossary_get_entries_by_author
+$args370=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'letter' =>		'', //		PARAM_ALPHA	VALUE_REQUIRED	[]
+	'field' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[LASTNAME]
+	'sort' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[ASC]
+	'from' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limit' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[20]
+	'options' =>		array (   //e_s_s 
+		'includenotapproved' =>			true, //		PARAM_BOOL	VALUE_DEFAULT	[0]
+		),
+	)
+;
+print_r($args370);
+
+
+// mod_glossary_get_entries_by_author_id
+$args371=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'authorid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'order' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[CONCEPT]
+	'sort' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[ASC]
+	'from' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limit' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[20]
+	'options' =>		array (   //e_s_s 
+		'includenotapproved' =>			true, //		PARAM_BOOL	VALUE_DEFAULT	[0]
+		),
+	)
+;
+print_r($args371);
+
+
+// mod_glossary_get_entries_by_category
+$args372=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'categoryid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'from' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limit' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[20]
+	'options' =>		array (   //e_s_s 
+		'includenotapproved' =>			true, //		PARAM_BOOL	VALUE_DEFAULT	[0]
+		),
+	)
+;
+print_r($args372);
+
+
+// mod_glossary_get_entries_by_date
+$args373=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'order' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[UPDATE]
+	'sort' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[DESC]
+	'from' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limit' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[20]
+	'options' =>		array (   //e_s_s 
+		'includenotapproved' =>			true, //		PARAM_BOOL	VALUE_DEFAULT	[0]
+		),
+	)
+;
+print_r($args373);
+
+
+// mod_glossary_get_entries_by_letter
+$args374=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'letter' =>		'', //		PARAM_ALPHA	VALUE_REQUIRED	[]
+	'from' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limit' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[20]
+	'options' =>		array (   //e_s_s 
+		'includenotapproved' =>			true, //		PARAM_BOOL	VALUE_DEFAULT	[0]
+		),
+	)
+;
+print_r($args374);
+
+
+// mod_glossary_get_entries_by_search
+$args375=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'query' =>		'', //		PARAM_NOTAGS	VALUE_REQUIRED	[]
+	'fullsearch' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[1]
+	'order' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[CONCEPT]
+	'sort' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[ASC]
+	'from' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limit' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[20]
+	'options' =>		array (   //e_s_s 
+		'includenotapproved' =>			true, //		PARAM_BOOL	VALUE_DEFAULT	[0]
+		),
+	)
+;
+print_r($args375);
+
+
+// mod_glossary_get_entries_by_term
+$args376=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'term' =>		'', //		PARAM_NOTAGS	VALUE_REQUIRED	[]
+	'from' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limit' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[20]
+	'options' =>		array (   //e_s_s 
+		'includenotapproved' =>			true, //		PARAM_BOOL	VALUE_DEFAULT	[0]
+		),
+	)
+;
+print_r($args376);
+
+
+// mod_glossary_get_entries_to_approve
+$args377=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'letter' =>		'', //		PARAM_ALPHA	VALUE_REQUIRED	[]
+	'order' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[CONCEPT]
+	'sort' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[ASC]
+	'from' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limit' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[20]
+	'options' =>		array (   //e_s_s 
+		),
+	)
+;
+print_r($args377);
+
+
+// mod_glossary_get_entry_by_id
+$args378=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args378);
+
+
+// mod_glossary_get_glossaries_by_courses
+$args379=	array (   //e_s_s 
+	'courseids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args379);
+
+
+// mod_glossary_view_entry
+$args380=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args380);
+
+
+// mod_glossary_view_glossary
+$args381=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'mode' =>		'', //		PARAM_ALPHA	VALUE_REQUIRED	[]
+	)
+;
+print_r($args381);
+
+
+// mod_imscp_get_imscps_by_courses
+$args382=	array (   //e_s_s 
+	'courseids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args382);
+
+
+// mod_imscp_view_imscp
+$args383=	array (   //e_s_s 
+	'imscpid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args383);
+
+
+// mod_label_get_labels_by_courses
+$args384=	array (   //e_s_s 
+	'courseids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args384);
+
+
+// mod_lesson_finish_attempt
+$args385=	array (   //e_s_s 
+	'lessonid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'password' =>		'', //		PARAM_RAW	VALUE_DEFAULT	[]
+	'outoftime' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	'review' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args385);
+
+
+// mod_lesson_get_attempts_overview
+$args386=	array (   //e_s_s 
+	'lessonid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'groupid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args386);
+
+
+// mod_lesson_get_content_pages_viewed
+$args387=	array (   //e_s_s 
+	'lessonid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'lessonattempt' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	)
+;
+print_r($args387);
+
+
+// mod_lesson_get_lesson
+$args388=	array (   //e_s_s 
+	'lessonid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'password' =>		'', //		PARAM_RAW	VALUE_DEFAULT	[]
+	)
+;
+print_r($args388);
+
+
+// mod_lesson_get_lesson_access_information
+$args389=	array (   //e_s_s 
+	'lessonid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args389);
+
+
+// mod_lesson_get_lessons_by_courses
+$args390=	array (   //e_s_s 
+	'courseids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args390);
+
+
+// mod_lesson_get_page_data
+$args391=	array (   //e_s_s 
+	'lessonid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'pageid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'password' =>		'', //		PARAM_RAW	VALUE_DEFAULT	[]
+	'review' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	'returncontents' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args391);
+
+
+// mod_lesson_get_pages
+$args392=	array (   //e_s_s 
+	'lessonid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'password' =>		'', //		PARAM_RAW	VALUE_DEFAULT	[]
+	)
+;
+print_r($args392);
+
+
+// mod_lesson_get_pages_possible_jumps
+$args393=	array (   //e_s_s 
+	'lessonid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args393);
+
+
+// mod_lesson_get_questions_attempts
+$args394=	array (   //e_s_s 
+	'lessonid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'attempt' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'correct' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	'pageid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	)
+;
+print_r($args394);
+
+
+// mod_lesson_get_user_attempt
+$args395=	array (   //e_s_s 
+	'lessonid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'lessonattempt' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args395);
+
+
+// mod_lesson_get_user_attempt_grade
+$args396=	array (   //e_s_s 
+	'lessonid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'lessonattempt' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	)
+;
+print_r($args396);
+
+
+// mod_lesson_get_user_grade
+$args397=	array (   //e_s_s 
+	'lessonid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	)
+;
+print_r($args397);
+
+
+// mod_lesson_get_user_timers
+$args398=	array (   //e_s_s 
+	'lessonid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	)
+;
+print_r($args398);
+
+
+// mod_lesson_launch_attempt
+$args399=	array (   //e_s_s 
+	'lessonid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'password' =>		'', //		PARAM_RAW	VALUE_DEFAULT	[]
+	'pageid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'review' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args399);
+
+
+// mod_lesson_process_page
+$args400=	array (   //e_s_s 
+	'lessonid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'pageid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'data' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	'password' =>		'', //		PARAM_RAW	VALUE_DEFAULT	[]
+	'review' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args400);
+
+
+// mod_lesson_view_lesson
+$args401=	array (   //e_s_s 
+	'lessonid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'password' =>		'', //		PARAM_RAW	VALUE_DEFAULT	[]
+	)
+;
+print_r($args401);
+
+
+// mod_lti_create_tool_proxy
+$args402=	array (   //e_s_s 
+	'name' =>		'', //		PARAM_MULTILANG	VALUE_DEFAULT	[]
+	'regurl' =>		'', //		PARAM_URL	VALUE_REQUIRED	[]
+	'capabilityoffered' =>		array(  // e_m_s
+			'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+		 ),
+	'serviceoffered' =>		array(  // e_m_s
+			'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args402);
+
+
+// mod_lti_create_tool_type
+$args403=	array (   //e_s_s 
+	'cartridgeurl' =>		'', //		PARAM_URL	VALUE_DEFAULT	[]
+	'key' =>		'', //		PARAM_MULTILANG	VALUE_DEFAULT	[]
+	'secret' =>		'', //		PARAM_MULTILANG	VALUE_DEFAULT	[]
+	)
+;
+print_r($args403);
+
+
+// mod_lti_delete_tool_proxy
+$args404=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args404);
+
+
+// mod_lti_delete_tool_type
+$args405=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args405);
+
+
+// mod_lti_get_ltis_by_courses
+$args406=	array (   //e_s_s 
+	'courseids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args406);
+
+
+// mod_lti_get_tool_launch_data
+$args407=	array (   //e_s_s 
+	'toolid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args407);
+
+
+// mod_lti_get_tool_proxies
+$args408=	array (   //e_s_s 
+	'orphanedonly' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args408);
+
+
+// mod_lti_get_tool_proxy_registration_request
+$args409=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args409);
+
+
+// mod_lti_get_tool_types
+$args410=	array (   //e_s_s 
+	'toolproxyid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args410);
+
+
+// mod_lti_is_cartridge
+$args411=	array (   //e_s_s 
+	'url' =>		'', //		PARAM_URL	VALUE_REQUIRED	[]
+	)
+;
+print_r($args411);
+
+
+// mod_lti_update_tool_type
+$args412=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'name' =>		'', //		PARAM_RAW	VALUE_DEFAULT	[]
+	'description' =>		'', //		PARAM_RAW	VALUE_DEFAULT	[]
+	'state' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	)
+;
+print_r($args412);
+
+
+// mod_lti_view_lti
+$args413=	array (   //e_s_s 
+	'ltiid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args413);
+
+
+// mod_oublog_get_blog_allposts
+$args414=	array (   //e_s_s 
+	'blogid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'sort' =>		'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+	'username' =>		'', //		PARAM_USERNAME	VALUE_REQUIRED	[]
+	'page' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'tags' =>		'', //		PARAM_SEQUENCE	VALUE_DEFAULT	[]
+	)
+;
+print_r($args414);
+
+
+// mod_oublog_get_blog_info
+$args415=	array (   //e_s_s 
+	'cmid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'username' =>		'', //		PARAM_USERNAME	VALUE_REQUIRED	[]
+	)
+;
+print_r($args415);
+
+
+// mod_oublog_get_blog_posts
+$args416=	array (   //e_s_s 
+	'blogid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'bcontextid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'selected' =>		'', //		PARAM_SEQUENCE	VALUE_REQUIRED	[]
+	'inccomments' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	'username' =>		'', //		PARAM_USERNAME	VALUE_REQUIRED	[]
+	)
+;
+print_r($args416);
+
+
+// mod_oublog_get_user_blogs
+$args417=	array (   //e_s_s 
+	'username' =>		'', //		PARAM_USERNAME	VALUE_REQUIRED	[]
+	)
+;
+print_r($args417);
+
+
+// mod_page_get_pages_by_courses
+$args418=	array (   //e_s_s 
+	'courseids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args418);
+
+
+// mod_page_view_page
+$args419=	array (   //e_s_s 
+	'pageid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args419);
+
+
+// mod_quiz_get_attempt_access_information
+$args420=	array (   //e_s_s 
+	'quizid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'attemptid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args420);
+
+
+// mod_quiz_get_attempt_data
+$args421=	array (   //e_s_s 
+	'attemptid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'page' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'preflightdata' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args421);
+
+
+// mod_quiz_get_attempt_review
+$args422=	array (   //e_s_s 
+	'attemptid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'page' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[-1]
+	)
+;
+print_r($args422);
+
+
+// mod_quiz_get_attempt_summary
+$args423=	array (   //e_s_s 
+	'attemptid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'preflightdata' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args423);
+
+
+// mod_quiz_get_combined_review_options
+$args424=	array (   //e_s_s 
+	'quizid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args424);
+
+
+// mod_quiz_get_quiz_access_information
+$args425=	array (   //e_s_s 
+	'quizid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args425);
+
+
+// mod_quiz_get_quiz_feedback_for_grade
+$args426=	array (   //e_s_s 
+	'quizid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'grade' =>		1, //		PARAM_NUMBER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args426);
+
+
+// mod_quiz_get_quiz_required_qtypes
+$args427=	array (   //e_s_s 
+	'quizid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args427);
+
+
+// mod_quiz_get_quizzes_by_courses
+$args428=	array (   //e_s_s 
+	'courseids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args428);
+
+
+// mod_quiz_get_user_attempts
+$args429=	array (   //e_s_s 
+	'quizid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'status' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[finished]
+	'includepreviews' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args429);
+
+
+// mod_quiz_get_user_best_grade
+$args430=	array (   //e_s_s 
+	'quizid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args430);
+
+
+// mod_quiz_process_attempt
+$args431=	array (   //e_s_s 
+	'attemptid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'data' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	'finishattempt' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	'timeup' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	'preflightdata' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args431);
+
+
+// mod_quiz_save_attempt
+$args432=	array (   //e_s_s 
+	'attemptid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'data' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	'preflightdata' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args432);
+
+
+// mod_quiz_start_attempt
+$args433=	array (   //e_s_s 
+	'quizid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'preflightdata' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	'forcenew' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args433);
+
+
+// mod_quiz_view_attempt
+$args434=	array (   //e_s_s 
+	'attemptid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'page' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'preflightdata' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args434);
+
+
+// mod_quiz_view_attempt_review
+$args435=	array (   //e_s_s 
+	'attemptid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args435);
+
+
+// mod_quiz_view_attempt_summary
+$args436=	array (   //e_s_s 
+	'attemptid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'preflightdata' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args436);
+
+
+// mod_quiz_view_quiz
+$args437=	array (   //e_s_s 
+	'quizid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args437);
+
+
+// mod_resource_get_resources_by_courses
+$args438=	array (   //e_s_s 
+	'courseids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args438);
+
+
+// mod_resource_view_resource
+$args439=	array (   //e_s_s 
+	'resourceid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args439);
+
+
+// mod_scorm_get_scorm_attempt_count
+$args440=	array (   //e_s_s 
+	'scormid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'ignoremissingcompletion' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args440);
+
+
+// mod_scorm_get_scorm_sco_tracks
+$args441=	array (   //e_s_s 
+	'scoid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'attempt' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args441);
+
+
+// mod_scorm_get_scorm_scoes
+$args442=	array (   //e_s_s 
+	'scormid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'organization' =>		'', //		PARAM_RAW	VALUE_DEFAULT	[]
+	)
+;
+print_r($args442);
+
+
+// mod_scorm_get_scorm_user_data
+$args443=	array (   //e_s_s 
+	'scormid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'attempt' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args443);
+
+
+// mod_scorm_get_scorms_by_courses
+$args444=	array (   //e_s_s 
+	'courseids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args444);
+
+
+// mod_scorm_insert_scorm_tracks
+$args445=	array (   //e_s_s 
+	'scoid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'attempt' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'tracks' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'element' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args445);
+
+
+// mod_scorm_launch_sco
+$args446=	array (   //e_s_s 
+	'scormid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'scoid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args446);
+
+
+// mod_scorm_view_scorm
+$args447=	array (   //e_s_s 
+	'scormid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args447);
+
+
+// mod_survey_get_questions
+$args448=	array (   //e_s_s 
+	'surveyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args448);
+
+
+// mod_survey_get_surveys_by_courses
+$args449=	array (   //e_s_s 
+	'courseids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args449);
+
+
+// mod_survey_submit_answers
+$args450=	array (   //e_s_s 
+	'surveyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'answers' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'key' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args450);
+
+
+// mod_survey_view_survey
+$args451=	array (   //e_s_s 
+	'surveyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args451);
+
+
+// mod_url_get_urls_by_courses
+$args452=	array (   //e_s_s 
+	'courseids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args452);
+
+
+// mod_url_view_url
+$args453=	array (   //e_s_s 
+	'urlid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args453);
+
+
+// mod_wiki_edit_page
+$args454=	array (   //e_s_s 
+	'pageid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'content' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	'section' =>		'', //		PARAM_RAW	VALUE_DEFAULT	[]
+	)
+;
+print_r($args454);
+
+
+// mod_wiki_get_page_contents
+$args455=	array (   //e_s_s 
+	'pageid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args455);
+
+
+// mod_wiki_get_page_for_editing
+$args456=	array (   //e_s_s 
+	'pageid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'section' =>		'', //		PARAM_RAW	VALUE_DEFAULT	[]
+	'lockonly' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args456);
+
+
+// mod_wiki_get_subwiki_files
+$args457=	array (   //e_s_s 
+	'wikiid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'groupid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[-1]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args457);
+
+
+// mod_wiki_get_subwiki_pages
+$args458=	array (   //e_s_s 
+	'wikiid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'groupid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[-1]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'options' =>		array (   //e_s_s 
+		'sortby' =>			'', //		PARAM_ALPHA	VALUE_DEFAULT	[title]
+		'sortdirection' =>			'', //		PARAM_ALPHA	VALUE_DEFAULT	[ASC]
+		'includecontent' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+		),
+	)
+;
+print_r($args458);
+
+
+// mod_wiki_get_subwikis
+$args459=	array (   //e_s_s 
+	'wikiid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args459);
+
+
+// mod_wiki_get_wikis_by_courses
+$args460=	array (   //e_s_s 
+	'courseids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args460);
+
+
+// mod_wiki_new_page
+$args461=	array (   //e_s_s 
+	'title' =>		'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+	'content' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	'contentformat' =>		'', //		PARAM_MULTILANG	VALUE_DEFAULT	[]
+	'subwikiid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	'wikiid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	'groupid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[]
+	)
+;
+print_r($args461);
+
+
+// mod_wiki_view_page
+$args462=	array (   //e_s_s 
+	'pageid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args462);
+
+
+// mod_wiki_view_wiki
+$args463=	array (   //e_s_s 
+	'wikiid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args463);
+
+
+// mod_workshop_add_submission
+$args464=	array (   //e_s_s 
+	'workshopid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'title' =>		'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+	'content' =>		'', //		PARAM_RAW	VALUE_DEFAULT	[]
+	'contentformat' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'inlineattachmentsid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'attachmentsid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args464);
+
+
+// mod_workshop_delete_submission
+$args465=	array (   //e_s_s 
+	'submissionid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args465);
+
+
+// mod_workshop_evaluate_assessment
+$args466=	array (   //e_s_s 
+	'assessmentid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'feedbacktext' =>		'', //		PARAM_RAW	VALUE_DEFAULT	[]
+	'feedbackformat' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'weight' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[1]
+	'gradinggradeover' =>		'', //		PARAM_FORMAT	VALUE_DEFAULT	[]
+	)
+;
+print_r($args466);
+
+
+// mod_workshop_evaluate_submission
+$args467=	array (   //e_s_s 
+	'submissionid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'feedbacktext' =>		'', //		PARAM_RAW	VALUE_DEFAULT	[]
+	'feedbackformat' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'published' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	'gradeover' =>		'', //		PARAM_FORMAT	VALUE_DEFAULT	[]
+	)
+;
+print_r($args467);
+
+
+// mod_workshop_get_assessment
+$args468=	array (   //e_s_s 
+	'assessmentid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args468);
+
+
+// mod_workshop_get_assessment_form_definition
+$args469=	array (   //e_s_s 
+	'assessmentid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'mode' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[assessment]
+	)
+;
+print_r($args469);
+
+
+// mod_workshop_get_grades
+$args470=	array (   //e_s_s 
+	'workshopid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args470);
+
+
+// mod_workshop_get_grades_report
+$args471=	array (   //e_s_s 
+	'workshopid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'groupid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'sortby' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[lastname]
+	'sortdirection' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[ASC]
+	'page' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'perpage' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args471);
+
+
+// mod_workshop_get_reviewer_assessments
+$args472=	array (   //e_s_s 
+	'workshopid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args472);
+
+
+// mod_workshop_get_submission
+$args473=	array (   //e_s_s 
+	'submissionid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args473);
+
+
+// mod_workshop_get_submission_assessments
+$args474=	array (   //e_s_s 
+	'submissionid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args474);
+
+
+// mod_workshop_get_submissions
+$args475=	array (   //e_s_s 
+	'workshopid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'groupid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'page' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'perpage' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args475);
+
+
+// mod_workshop_get_user_plan
+$args476=	array (   //e_s_s 
+	'workshopid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args476);
+
+
+// mod_workshop_get_workshop_access_information
+$args477=	array (   //e_s_s 
+	'workshopid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args477);
+
+
+// mod_workshop_get_workshops_by_courses
+$args478=	array (   //e_s_s 
+	'courseids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args478);
+
+
+// mod_workshop_update_assessment
+$args479=	array (   //e_s_s 
+	'assessmentid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'data' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args479);
+
+
+// mod_workshop_update_submission
+$args480=	array (   //e_s_s 
+	'submissionid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'title' =>		'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+	'content' =>		'', //		PARAM_RAW	VALUE_DEFAULT	[]
+	'contentformat' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'inlineattachmentsid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'attachmentsid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args480);
+
+
+// mod_workshop_view_submission
+$args481=	array (   //e_s_s 
+	'submissionid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args481);
+
+
+// mod_workshop_view_workshop
+$args482=	array (   //e_s_s 
+	'workshopid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args482);
+
+
+// report_competency_data_for_report
+$args483=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args483);
+
+
+// report_insights_set_fixed_prediction
+$args484=	array (   //e_s_s 
+	'predictionid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args484);
+
+
+// report_insights_set_notuseful_prediction
+$args485=	array (   //e_s_s 
+	'predictionid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args485);
+
+
+// tool_dataprivacy_approve_data_request
+$args486=	array (   //e_s_s 
+	'requestid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args486);
+
+
+// tool_dataprivacy_bulk_approve_data_requests
+$args487=	array (   //e_s_s 
+	'requestids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args487);
+
+
+// tool_dataprivacy_bulk_deny_data_requests
+$args488=	array (   //e_s_s 
+	'requestids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args488);
+
+
+// tool_dataprivacy_cancel_data_request
+$args489=	array (   //e_s_s 
+	'requestid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args489);
+
+
+// tool_dataprivacy_confirm_contexts_for_deletion
+$args490=	array (   //e_s_s 
+	'ids' =>		array(  // e_m_s
+			1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+		 ),
+	)
+;
+print_r($args490);
+
+
+// tool_dataprivacy_contact_dpo
+$args491=	array (   //e_s_s 
+	'message' =>		'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+	)
+;
+print_r($args491);
+
+
+// tool_dataprivacy_create_category_form
+$args492=	array (   //e_s_s 
+	'jsonformdata' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	)
+;
+print_r($args492);
+
+
+// tool_dataprivacy_create_purpose_form
+$args493=	array (   //e_s_s 
+	'jsonformdata' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	)
+;
+print_r($args493);
+
+
+// tool_dataprivacy_delete_category
+$args494=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args494);
+
+
+// tool_dataprivacy_delete_purpose
+$args495=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args495);
+
+
+// tool_dataprivacy_deny_data_request
+$args496=	array (   //e_s_s 
+	'requestid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args496);
+
+
+// tool_dataprivacy_get_activity_options
+$args497=	array (   //e_s_s 
+	'nodefaults' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args497);
+
+
+// tool_dataprivacy_get_category_options
+$args498=	array (   //e_s_s 
+	'includeinherit' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[1]
+	'includenotset' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args498);
+
+
+// tool_dataprivacy_get_data_request
+$args499=	array (   //e_s_s 
+	'requestid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args499);
+
+
+// tool_dataprivacy_get_purpose_options
+$args500=	array (   //e_s_s 
+	'includeinherit' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[1]
+	'includenotset' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args500);
+
+
+// tool_dataprivacy_get_users
+$args501=	array (   //e_s_s 
+	'query' =>		'', //		PARAM_MULTILANG	VALUE_REQUIRED	[]
+	)
+;
+print_r($args501);
+
+
+// tool_dataprivacy_mark_complete
+$args502=	array (   //e_s_s 
+	'requestid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args502);
+
+
+// tool_dataprivacy_set_context_defaults
+$args503=	array (   //e_s_s 
+	'contextlevel' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'category' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'purpose' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'activity' =>		'', //		PARAM_PLUGIN	VALUE_DEFAULT	[]
+	'override' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args503);
+
+
+// tool_dataprivacy_set_context_form
+$args504=	array (   //e_s_s 
+	'jsonformdata' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	)
+;
+print_r($args504);
+
+
+// tool_dataprivacy_set_contextlevel_form
+$args505=	array (   //e_s_s 
+	'jsonformdata' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	)
+;
+print_r($args505);
+
+
+// tool_dataprivacy_tree_extra_branches
+$args506=	array (   //e_s_s 
+	'contextid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'element' =>		'', //		PARAM_ALPHA	VALUE_REQUIRED	[]
+	)
+;
+print_r($args506);
+
+
+// tool_lp_data_for_competencies_manage_page
+$args507=	array (   //e_s_s 
+	'competencyframeworkid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'search' =>		'', //		PARAM_RAW	VALUE_DEFAULT	[]
+	)
+;
+print_r($args507);
+
+
+// tool_lp_data_for_competency_frameworks_manage_page
+$args508=	array (   //e_s_s 
+	'pagecontext' =>		array (   //e_s_s 
+		'contextid' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		'contextlevel' =>			'', //		PARAM_ALPHA	VALUE_DEFAULT	[]
+		'instanceid' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		),
+	)
+;
+print_r($args508);
+
+
+// tool_lp_data_for_competency_summary
+$args509=	array (   //e_s_s 
+	'competencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'includerelated' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	'includecourses' =>		true, //		PARAM_BOOL	VALUE_DEFAULT	[]
+	)
+;
+print_r($args509);
+
+
+// tool_lp_data_for_course_competencies_page
+$args510=	array (   //e_s_s 
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args510);
+
+
+// tool_lp_data_for_plan_page
+$args511=	array (   //e_s_s 
+	'planid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args511);
+
+
+// tool_lp_data_for_plans_page
+$args512=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args512);
+
+
+// tool_lp_data_for_related_competencies_section
+$args513=	array (   //e_s_s 
+	'competencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args513);
+
+
+// tool_lp_data_for_template_competencies_page
+$args514=	array (   //e_s_s 
+	'templateid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'pagecontext' =>		array (   //e_s_s 
+		'contextid' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		'contextlevel' =>			'', //		PARAM_ALPHA	VALUE_DEFAULT	[]
+		'instanceid' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		),
+	)
+;
+print_r($args514);
+
+
+// tool_lp_data_for_templates_manage_page
+$args515=	array (   //e_s_s 
+	'pagecontext' =>		array (   //e_s_s 
+		'contextid' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		'contextlevel' =>			'', //		PARAM_ALPHA	VALUE_DEFAULT	[]
+		'instanceid' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		),
+	)
+;
+print_r($args515);
+
+
+// tool_lp_data_for_user_competency_summary
+$args516=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'competencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args516);
+
+
+// tool_lp_data_for_user_competency_summary_in_course
+$args517=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'competencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'courseid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args517);
+
+
+// tool_lp_data_for_user_competency_summary_in_plan
+$args518=	array (   //e_s_s 
+	'competencyid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'planid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args518);
+
+
+// tool_lp_data_for_user_evidence_list_page
+$args519=	array (   //e_s_s 
+	'userid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args519);
+
+
+// tool_lp_data_for_user_evidence_page
+$args520=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args520);
+
+
+// tool_lp_list_courses_using_competency
+$args521=	array (   //e_s_s 
+	'id' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args521);
+
+
+// tool_lp_search_cohorts
+$args522=	array (   //e_s_s 
+	'query' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	'context' =>		array (   //e_s_s 
+		'contextid' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		'contextlevel' =>			'', //		PARAM_ALPHA	VALUE_DEFAULT	[]
+		'instanceid' =>			1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+		),
+	'includes' =>		'', //		PARAM_ALPHA	VALUE_DEFAULT	[parents]
+	'limitfrom' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limitnum' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[25]
+	)
+;
+print_r($args522);
+
+
+// tool_lp_search_users
+$args523=	array (   //e_s_s 
+	'query' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	'capability' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	'limitfrom' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	'limitnum' =>		'', //		PARAM_RAW	VALUE_DEFAULT	[100]
+	)
+;
+print_r($args523);
+
+
+// tool_mobile_get_autologin_key
+$args524=	array (   //e_s_s 
+	'privatetoken' =>		'', //		PARAM_ALPHANUM	VALUE_REQUIRED	[]
+	)
+;
+print_r($args524);
+
+
+// tool_mobile_get_config
+$args525=	array (   //e_s_s 
+	'section' =>		'', //		PARAM_FORMAT	VALUE_DEFAULT	[]
+	)
+;
+print_r($args525);
+
+
+// tool_mobile_get_content
+$args526=	array (   //e_s_s 
+	'component' =>		'', //		PARAM_COMPONENT	VALUE_REQUIRED	[]
+	'method' =>		'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+	'args' =>		array(  // e_m_s
+			array (   //e_s_s 
+			'name' =>				'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+			'value' =>				'', //		PARAM_RAW	VALUE_REQUIRED	[]
+			),
+		 ),
+	)
+;
+print_r($args526);
+
+
+// tool_mobile_get_plugins_supporting_mobile
+$args527=	array (   //e_s_s 
+	)
+;
+print_r($args527);
+
+
+// tool_mobile_get_public_config
+$args528=	array (   //e_s_s 
+	)
+;
+print_r($args528);
+
+
+// tool_policy_get_policy_version
+$args529=	array (   //e_s_s 
+	'versionid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'behalfid' =>		1, //		PARAM_INTEGER	VALUE_DEFAULT	[0]
+	)
+;
+print_r($args529);
+
+
+// tool_policy_submit_accept_on_behalf
+$args530=	array (   //e_s_s 
+	'jsonformdata' =>		'', //		PARAM_RAW	VALUE_REQUIRED	[]
+	)
+;
+print_r($args530);
+
+
+// tool_templatelibrary_list_templates
+$args531=	array (   //e_s_s 
+	'component' =>		'', //		PARAM_COMPONENT	VALUE_DEFAULT	[]
+	'search' =>		'', //		PARAM_RAW	VALUE_DEFAULT	[]
+	'themename' =>		'', //		PARAM_COMPONENT	VALUE_DEFAULT	[]
+	)
+;
+print_r($args531);
+
+
+// tool_templatelibrary_load_canonical_template
+$args532=	array (   //e_s_s 
+	'component' =>		'', //		PARAM_COMPONENT	VALUE_REQUIRED	[]
+	'template' =>		'', //		PARAM_FORMAT	VALUE_REQUIRED	[]
+	)
+;
+print_r($args532);
+
+
+// tool_usertours_complete_tour
+$args533=	array (   //e_s_s 
+	'tourid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'context' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'pageurl' =>		'', //		PARAM_LOCALURL	VALUE_REQUIRED	[]
+	'stepid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'stepindex' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args533);
+
+
+// tool_usertours_fetch_and_start_tour
+$args534=	array (   //e_s_s 
+	'tourid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'context' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'pageurl' =>		'', //		PARAM_URL	VALUE_REQUIRED	[]
+	)
+;
+print_r($args534);
+
+
+// tool_usertours_reset_tour
+$args535=	array (   //e_s_s 
+	'tourid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'context' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'pageurl' =>		'', //		PARAM_URL	VALUE_REQUIRED	[]
+	)
+;
+print_r($args535);
+
+
+// tool_usertours_step_shown
+$args536=	array (   //e_s_s 
+	'tourid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'context' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'pageurl' =>		'', //		PARAM_URL	VALUE_REQUIRED	[]
+	'stepid' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	'stepindex' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args536);
+
+
+// tool_xmldb_invoke_move_action
+$args537=	array (   //e_s_s 
+	'action' =>		'', //		PARAM_ALPHAEXT	VALUE_REQUIRED	[]
+	'dir' =>		'', //		PARAM_PATH	VALUE_REQUIRED	[]
+	'table' =>		'', //		PARAM_NOTAGS	VALUE_REQUIRED	[]
+	'field' =>		'', //		PARAM_NOTAGS	VALUE_DEFAULT	[]
+	'key' =>		'', //		PARAM_NOTAGS	VALUE_DEFAULT	[]
+	'index' =>		'', //		PARAM_NOTAGS	VALUE_DEFAULT	[]
+	'position' =>		1, //		PARAM_INTEGER	VALUE_REQUIRED	[]
+	)
+;
+print_r($args537);
+
+

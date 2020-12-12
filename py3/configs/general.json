@@ -1,0 +1,36 @@
+{
+"debug": false,
+    "general":{
+               "0": "http://moodle36.localhost/",
+               "1": "mymoodle36", 
+               "2":"Log in to the site", 
+               "3": "Available courses", 
+               "4": "Log in",
+               "5":"Ciao_777_", 
+               "6":"users_bibbi_m91.csv", 
+               "7":"Site home", 
+               "8":"Edit profile" 
+                },
+    "students": {"groups": 
+                    {
+                        "elite": {
+                            "bonus" : 1, 
+                            "retry": 2 
+                        },
+                        "intermediate": {
+                            "bonus": 0,
+                            "retry": 1
+                        },
+                        "problematic": {
+                            "bonus": -1,
+                            "retry": 0
+                        }
+                    },
+                  "profpic_threeshold":
+                    {
+                      "elite": 3,
+                      "intermediate": 4,
+                      "problematic": 4
+                    }
+                }
+}

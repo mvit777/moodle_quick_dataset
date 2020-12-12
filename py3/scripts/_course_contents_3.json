@@ -1,0 +1,294 @@
+[
+	{
+		"id": 11,
+		"name": "Programma Corso",
+		"visible": 1,
+		"summary": "",
+		"summaryformat": 1,
+		"section": 0,
+		"hiddenbynumsections": 0,
+		"uservisible": true,
+		"modules": [
+			{
+				"id": 11,
+				"url": "http:\/\/moodle36.localhost\/mod\/forum\/view.php?id=11",
+				"name": "Announcements",
+				"instance": 3,
+				"visible": 1,
+				"uservisible": true,
+				"visibleoncoursepage": 1,
+				"modicon": "http:\/\/moodle36.localhost\/theme\/image.php\/clean\/forum\/1546866625\/icon",
+				"modname": "forum",
+				"modplural": "Forums",
+				"availability": null,
+				"indent": 0,
+				"onclick": "",
+				"afterlink": null,
+				"customdata": "\"\"",
+				"completion": 0
+			},
+			{
+				"id": 12,
+				"url": "http:\/\/moodle36.localhost\/mod\/resource\/view.php?id=12",
+				"name": "Programma corso",
+				"instance": 3,
+				"visible": 1,
+				"uservisible": true,
+				"visibleoncoursepage": 1,
+				"modicon": "http:\/\/moodle36.localhost\/theme\/image.php\/clean\/core\/1546866625\/f\/pdf-24",
+				"modname": "resource",
+				"modplural": "Files",
+				"availability": null,
+				"indent": 0,
+				"onclick": "window.open('http:\/\/moodle36.localhost\/mod\/resource\/view.php?id=12&amp;redirect=1', '', 'width=620,height=450,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false;",
+				"afterlink": null,
+				"customdata": "\"a:2:{s:10:\\\"popupwidth\\\";i:620;s:11:\\\"popupheight\\\";i:450;}\"",
+				"completion": 0,
+				"contents": [
+					{
+						"type": "file",
+						"filename": "Programma_e_currsecmodulo.pdf",
+						"filepath": "\/",
+						"filesize": 451828,
+						"fileurl": "http:\/\/moodle36.localhost\/webservice\/pluginfile.php\/3729\/mod_resource\/content\/1\/Programma_e_currsecmodulo.pdf?forcedownload=1",
+						"timecreated": 1510659139,
+						"timemodified": 1510659151,
+						"sortorder": 1,
+						"mimetype": "application\/pdf",
+						"isexternalfile": false,
+						"userid": 2,
+						"author": "Focusfad srl",
+						"license": "allrightsreserved"
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 12,
+		"name": "1. Introduzione",
+		"visible": 1,
+		"summary": "",
+		"summaryformat": 1,
+		"section": 1,
+		"hiddenbynumsections": 0,
+		"uservisible": true,
+		"modules": [
+			{
+				"id": 13,
+				"url": "http:\/\/moodle36.localhost\/mod\/scorm\/view.php?id=13",
+				"name": "Introduzione",
+				"instance": 6,
+				"visible": 1,
+				"uservisible": true,
+				"visibleoncoursepage": 1,
+				"modicon": "http:\/\/moodle36.localhost\/theme\/image.php\/clean\/scorm\/1546866625\/icon",
+				"modname": "scorm",
+				"modplural": "SCORM packages",
+				"availability": null,
+				"indent": 0,
+				"onclick": "",
+				"afterlink": null,
+				"customdata": "\"\"",
+				"completion": 0
+			}
+		]
+	},
+	{
+		"id": 13,
+		"name": "2. Adattare il bagno - Proposte pratiche per il superamento delle barriere in bagno",
+		"visible": 1,
+		"summary": "",
+		"summaryformat": 1,
+		"section": 2,
+		"hiddenbynumsections": 0,
+		"uservisible": true,
+		"modules": [
+			{
+				"id": 14,
+				"url": "http:\/\/moodle36.localhost\/mod\/scorm\/view.php?id=14",
+				"name": "Adattare il bagno",
+				"instance": 7,
+				"visible": 1,
+				"uservisible": true,
+				"visibleoncoursepage": 1,
+				"modicon": "http:\/\/moodle36.localhost\/theme\/image.php\/clean\/scorm\/1546866625\/icon",
+				"modname": "scorm",
+				"modplural": "SCORM packages",
+				"availability": null,
+				"indent": 0,
+				"onclick": "",
+				"afterlink": null,
+				"customdata": "\"\"",
+				"completion": 0
+			}
+		]
+	},
+	{
+		"id": 14,
+		"name": "3. Cucina, salotto e camera da letto - Consigli pratici",
+		"visible": 1,
+		"summary": "",
+		"summaryformat": 1,
+		"section": 3,
+		"hiddenbynumsections": 0,
+		"uservisible": true,
+		"modules": [
+			{
+				"id": 15,
+				"url": "http:\/\/moodle36.localhost\/mod\/scorm\/view.php?id=15",
+				"name": "Cucina sala e camera da letto",
+				"instance": 8,
+				"visible": 1,
+				"uservisible": true,
+				"visibleoncoursepage": 1,
+				"modicon": "http:\/\/moodle36.localhost\/theme\/image.php\/clean\/scorm\/1546866625\/icon",
+				"modname": "scorm",
+				"modplural": "SCORM packages",
+				"availability": null,
+				"indent": 0,
+				"onclick": "",
+				"afterlink": null,
+				"customdata": "\"\"",
+				"completion": 0
+			}
+		]
+	},
+	{
+		"id": 15,
+		"name": "4. Cenni di controllo ambientale",
+		"visible": 1,
+		"summary": "",
+		"summaryformat": 1,
+		"section": 4,
+		"hiddenbynumsections": 0,
+		"uservisible": true,
+		"modules": [
+			{
+				"id": 16,
+				"url": "http:\/\/moodle36.localhost\/mod\/scorm\/view.php?id=16",
+				"name": "Controllo ambientale",
+				"instance": 9,
+				"visible": 1,
+				"uservisible": true,
+				"visibleoncoursepage": 1,
+				"modicon": "http:\/\/moodle36.localhost\/theme\/image.php\/clean\/scorm\/1546866625\/icon",
+				"modname": "scorm",
+				"modplural": "SCORM packages",
+				"availability": null,
+				"indent": 0,
+				"onclick": "",
+				"afterlink": null,
+				"customdata": "\"\"",
+				"completion": 0
+			}
+		]
+	},
+	{
+		"id": 16,
+		"name": "5. L'ausilio e la piccola modifica artigianale",
+		"visible": 1,
+		"summary": "",
+		"summaryformat": 1,
+		"section": 5,
+		"hiddenbynumsections": 0,
+		"uservisible": true,
+		"modules": [
+			{
+				"id": 17,
+				"url": "http:\/\/moodle36.localhost\/mod\/scorm\/view.php?id=17",
+				"name": "Ausili e piccole modifiche artigianali",
+				"instance": 10,
+				"visible": 1,
+				"uservisible": true,
+				"visibleoncoursepage": 1,
+				"modicon": "http:\/\/moodle36.localhost\/theme\/image.php\/clean\/scorm\/1546866625\/icon",
+				"modname": "scorm",
+				"modplural": "SCORM packages",
+				"availability": null,
+				"indent": 0,
+				"onclick": "",
+				"afterlink": null,
+				"customdata": "{\"customcompletionrules\":{\"completionstatusrequired\":\"4\",\"completionscorerequired\":null,\"completionstatusallscos\":\"0\"}}",
+				"completion": 2,
+				"completiondata": {
+					"state": 0,
+					"timecompleted": 0,
+					"overrideby": null
+				}
+			}
+		]
+	},
+	{
+		"id": 17,
+		"name": "Test finale (max 5 prove)",
+		"visible": 1,
+		"summary": "",
+		"summaryformat": 1,
+		"section": 6,
+		"hiddenbynumsections": 0,
+		"uservisible": true,
+		"modules": [
+			{
+				"id": 18,
+				"url": "http:\/\/moodle36.localhost\/mod\/quiz\/view.php?id=18",
+				"name": "TEST DI APPRENDIMENTO",
+				"instance": 2,
+				"visible": 1,
+				"uservisible": true,
+				"visibleoncoursepage": 1,
+				"modicon": "http:\/\/moodle36.localhost\/theme\/image.php\/clean\/quiz\/1546866625\/icon",
+				"modname": "quiz",
+				"modplural": "Quizzes",
+				"availability": null,
+				"indent": 0,
+				"onclick": "",
+				"afterlink": null,
+				"customdata": "\"\"",
+				"completion": 0
+			}
+		]
+	},
+	{
+		"id": 18,
+		"name": "Questionario di soddisfazione (obbligatorio)",
+		"visible": 1,
+		"summary": "",
+		"summaryformat": 1,
+		"section": 7,
+		"hiddenbynumsections": 0,
+		"uservisible": true,
+		"modules": [
+		]
+	},
+	{
+		"id": 19,
+		"name": "Altro",
+		"visible": 1,
+		"summary": "",
+		"summaryformat": 1,
+		"section": 8,
+		"hiddenbynumsections": 0,
+		"uservisible": true,
+		"modules": [
+			{
+				"id": 19,
+				"url": "http:\/\/moodle36.localhost\/mod\/forum\/view.php?id=19",
+				"name": "Annunci",
+				"instance": 4,
+				"visible": 1,
+				"uservisible": true,
+				"visibleoncoursepage": 1,
+				"modicon": "http:\/\/moodle36.localhost\/theme\/image.php\/clean\/forum\/1546866625\/icon",
+				"modname": "forum",
+				"modplural": "Forums",
+				"availability": null,
+				"indent": 0,
+				"onclick": "",
+				"afterlink": null,
+				"customdata": "\"\"",
+				"completion": 0
+			}
+		]
+	}
+]

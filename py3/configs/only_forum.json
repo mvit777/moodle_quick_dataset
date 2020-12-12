@@ -1,0 +1,72 @@
+{
+    "debug": false,
+    "general":{
+               "0": "http://moodle36.localhost/",
+               "1": "mymoodle36", 
+               "2":"Log in to the site", 
+               "3": "Available courses", 
+               "4": "Log in",
+               "5":"Ciao_777_", 
+               "6":"users.csv", 
+               "7":"Site home", 
+               "8":"Edit profile" 
+                },
+    "students": {"groups": 
+                    {
+                        "elite": {
+                            "bonus" : 1, 
+                            "retry": 2 
+                        },
+                        "intermediate": {
+                            "bonus": 0,
+                            "retry": 1
+                        },
+                        "problematic": {
+                            "bonus": -1,
+                            "retry": 0
+                        }
+                    },
+                  "profpic_threeshold":
+                    {
+                      "elite": 3,
+                      "intermediate": 3,
+                      "problematic": 4
+                    }
+                },
+    "courses": {
+        "list": ["course3"],
+        "default_slide_delay": 5,
+        "scorm":{
+            "button_enter": "//input[@value=\"Enter\"]"
+        }
+    },
+    
+    "course3":{
+        "id" : 3,
+        "title": "corso3", 
+        "url": "course/view.php?id=3",
+        "browsemethod": "navigateByMoodleapi",
+        "force_enrol": {
+            "call": "enrol_manual_enrol_users",
+            "params": " 5 :userid: 3 ",
+            "timeout": 5,
+            "helper": "helperEnrol"
+        } ,
+        "paths": {
+            
+            "11":{
+                "res_link_tipe": "by_xpath"
+            },
+            "21":{
+                "res_link_tipe": "by_xpath",
+                 "button_enter": "//input[@value='Add a new discussion topic']"
+            }
+        }, 
+        "threeshold":{
+            "elite": 2,
+            "intermediate": 3,
+            "problematic": 5
+        }
+    }
+
+}

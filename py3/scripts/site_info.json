@@ -1,0 +1,119 @@
+{
+	"sitename": "mymoodle36",
+	"username": "ws-spy",
+	"firstname": "ws-spy",
+	"lastname": "ws-spy",
+	"fullname": "ws-spy ws-spy",
+	"lang": "en",
+	"userid": 3647,
+	"siteurl": "http:\/\/moodle36.localhost",
+	"userpictureurl": "http:\/\/moodle36.localhost\/theme\/image.php\/clean\/core\/1546866625\/u\/f1",
+	"functions": [
+		{
+			"name": "core_course_get_contents",
+			"version": "2018120301.03"
+		},
+		{
+			"name": "core_webservice_get_site_info",
+			"version": "2018120301.03"
+		},
+		{
+			"name": "core_files_upload",
+			"version": "2018120301.03"
+		},
+		{
+			"name": "core_user_update_picture",
+			"version": "2018120301.03"
+		},
+		{
+			"name": "core_blog_view_entries",
+			"version": "2018120301.03"
+		},
+		{
+			"name": "core_completion_get_course_completion_status",
+			"version": "2018120301.03"
+		},
+		{
+			"name": "core_course_get_course_module_by_instance",
+			"version": "2018120301.03"
+		},
+		{
+			"name": "core_course_get_courses",
+			"version": "2018120301.03"
+		},
+		{
+			"name": "core_get_string",
+			"version": "2018120301.03"
+		},
+		{
+			"name": "core_message_create_contact_request",
+			"version": "2018120301.03"
+		},
+		{
+			"name": "core_message_mark_all_notifications_as_read",
+			"version": "2018120301.03"
+		},
+		{
+			"name": "core_user_view_user_profile",
+			"version": "2018120301.03"
+		},
+		{
+			"name": "mod_scorm_view_scorm",
+			"version": "2018120300"
+		},
+		{
+			"name": "tool_usertours_complete_tour",
+			"version": "2018120300"
+		}
+	],
+	"downloadfiles": 1,
+	"uploadfiles": 1,
+	"release": "3.6.1+ (Build: 20181210)",
+	"version": "2018120301.03",
+	"mobilecssurl": "",
+	"advancedfeatures": [
+		{
+			"name": "usecomments",
+			"value": 1
+		},
+		{
+			"name": "usetags",
+			"value": 1
+		},
+		{
+			"name": "enablenotes",
+			"value": 1
+		},
+		{
+			"name": "messaging",
+			"value": 1
+		},
+		{
+			"name": "enableblogs",
+			"value": 1
+		},
+		{
+			"name": "enablecompletion",
+			"value": 1
+		},
+		{
+			"name": "enablebadges",
+			"value": 1
+		},
+		{
+			"name": "messagingallusers",
+			"value": 0
+		},
+		{
+			"name": "mnet_dispatcher_mode",
+			"value": 0
+		}
+	],
+	"usercanmanageownfiles": true,
+	"userquota": 104857600,
+	"usermaxuploadfilesize": 2097152,
+	"userhomepage": 1,
+	"siteid": 1,
+	"sitecalendartype": "gregorian",
+	"usercalendartype": "gregorian"
+}

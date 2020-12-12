@@ -1,0 +1,195 @@
+[
+	{
+		"id": 21,
+		"name": "PROGRAMMA GENERALE",
+		"visible": 1,
+		"summary": "",
+		"summaryformat": 1,
+		"section": 0,
+		"hiddenbynumsections": 0,
+		"uservisible": true,
+		"modules": [
+			{
+				"id": 23,
+				"url": "http:\/\/moodle36.localhost\/mod\/forum\/view.php?id=23",
+				"name": "Announcements",
+				"instance": 6,
+				"visible": 1,
+				"uservisible": true,
+				"visibleoncoursepage": 1,
+				"modicon": "http:\/\/moodle36.localhost\/theme\/image.php\/clean\/forum\/1549023818\/icon",
+				"modname": "forum",
+				"modplural": "Forums",
+				"availability": null,
+				"indent": 0,
+				"onclick": "",
+				"afterlink": null,
+				"customdata": "\"\"",
+				"completion": 0
+			},
+			{
+				"id": 24,
+				"url": "http:\/\/moodle36.localhost\/mod\/resource\/view.php?id=24",
+				"name": "Programma del corso",
+				"instance": 4,
+				"visible": 1,
+				"uservisible": true,
+				"visibleoncoursepage": 1,
+				"modicon": "http:\/\/moodle36.localhost\/theme\/image.php\/clean\/core\/1549023818\/f\/pdf-24",
+				"modname": "resource",
+				"modplural": "Files",
+				"availability": null,
+				"indent": 0,
+				"onclick": "window.open('http:\/\/moodle36.localhost\/mod\/resource\/view.php?id=24&amp;redirect=1', '', 'width=620,height=450,toolbar=no,location=no,menubar=no,copyhistory=no,status=no,directories=no,scrollbars=yes,resizable=yes'); return false;",
+				"afterlink": null,
+				"customdata": "\"a:2:{s:10:\\\"popupwidth\\\";i:620;s:11:\\\"popupheight\\\";i:450;}\"",
+				"completion": 0,
+				"contents": [
+					{
+						"type": "file",
+						"filename": "Programma e curricula.pdf",
+						"filepath": "\/",
+						"filesize": 1443284,
+						"fileurl": "http:\/\/moodle36.localhost\/webservice\/pluginfile.php\/26571\/mod_resource\/content\/2\/Programma%20e%20curricula.pdf?forcedownload=1",
+						"timecreated": 1510831895,
+						"timemodified": 1510831900,
+						"sortorder": 1,
+						"mimetype": "application\/pdf",
+						"isexternalfile": false,
+						"userid": 2,
+						"author": "Focusfad srl",
+						"license": "allrightsreserved"
+					}
+				]
+			},
+			{
+				"id": 29,
+				"url": "http:\/\/moodle36.localhost\/mod\/forum\/view.php?id=29",
+				"name": "General Forum2",
+				"instance": 7,
+				"visible": 1,
+				"uservisible": true,
+				"visibleoncoursepage": 1,
+				"modicon": "http:\/\/moodle36.localhost\/theme\/image.php\/clean\/forum\/1549023818\/icon",
+				"modname": "forum",
+				"modplural": "Forums",
+				"availability": null,
+				"indent": 0,
+				"onclick": "",
+				"afterlink": null,
+				"customdata": "{\"customcompletionrules\":{\"completiondiscussions\":\"0\",\"completionreplies\":\"0\",\"completionposts\":\"1\"}}",
+				"completion": 2,
+				"completiondata": {
+					"state": 0,
+					"timecompleted": 0,
+					"overrideby": null
+				}
+			}
+		]
+	},
+	{
+		"id": 22,
+		"name": "1. Modelli teorici e anatomia",
+		"visible": 1,
+		"summary": "",
+		"summaryformat": 1,
+		"section": 1,
+		"hiddenbynumsections": 0,
+		"uservisible": true,
+		"modules": [
+			{
+				"id": 25,
+				"url": "http:\/\/moodle36.localhost\/mod\/scorm\/view.php?id=25",
+				"name": "Modelli teorici",
+				"instance": 11,
+				"visible": 1,
+				"uservisible": true,
+				"visibleoncoursepage": 1,
+				"modicon": "http:\/\/moodle36.localhost\/theme\/image.php\/clean\/scorm\/1549023818\/icon",
+				"modname": "scorm",
+				"modplural": "SCORM packages",
+				"availability": null,
+				"indent": 0,
+				"onclick": "",
+				"afterlink": null,
+				"customdata": "{\"customcompletionrules\":{\"completionstatusrequired\":\"4\",\"completionscorerequired\":null,\"completionstatusallscos\":\"0\"}}",
+				"completion": 2,
+				"completiondata": {
+					"state": 0,
+					"timecompleted": 0,
+					"overrideby": null
+				}
+			}
+		]
+	},
+	{
+		"id": 23,
+		"name": "2. Eziologia",
+		"visible": 1,
+		"summary": "",
+		"summaryformat": 1,
+		"section": 2,
+		"hiddenbynumsections": 0,
+		"uservisible": true,
+		"modules": [
+			{
+				"id": 26,
+				"url": "http:\/\/moodle36.localhost\/mod\/scorm\/view.php?id=26",
+				"name": "Eziologia",
+				"instance": 12,
+				"visible": 1,
+				"uservisible": true,
+				"visibleoncoursepage": 1,
+				"modicon": "http:\/\/moodle36.localhost\/theme\/image.php\/clean\/scorm\/1549023818\/icon",
+				"modname": "scorm",
+				"modplural": "SCORM packages",
+				"availability": null,
+				"indent": 0,
+				"onclick": "",
+				"afterlink": null,
+				"customdata": "{\"customcompletionrules\":{\"completionstatusrequired\":\"4\",\"completionscorerequired\":null,\"completionstatusallscos\":\"0\"}}",
+				"completion": 2,
+				"completiondata": {
+					"state": 0,
+					"timecompleted": 0,
+					"overrideby": null
+				}
+			}
+		]
+	},
+	{
+		"id": 26,
+		"name": "Test di apprendimento (max 5 tentativi)",
+		"visible": 1,
+		"summary": "",
+		"summaryformat": 1,
+		"section": 3,
+		"hiddenbynumsections": 0,
+		"uservisible": true,
+		"modules": [
+			{
+				"id": 27,
+				"url": "http:\/\/moodle36.localhost\/mod\/quiz\/view.php?id=27",
+				"name": "TEST FINALE",
+				"instance": 3,
+				"visible": 1,
+				"uservisible": true,
+				"visibleoncoursepage": 1,
+				"modicon": "http:\/\/moodle36.localhost\/theme\/image.php\/clean\/quiz\/1549023818\/icon",
+				"modname": "quiz",
+				"modplural": "Quizzes",
+				"availability": null,
+				"indent": 0,
+				"onclick": "",
+				"afterlink": null,
+				"customdata": "{\"customcompletionrules\":{\"completionattemptsexhausted\":\"0\",\"completionpass\":\"0\"}}",
+				"completion": 2,
+				"completiondata": {
+					"state": 0,
+					"timecompleted": 0,
+					"overrideby": null
+				}
+			}
+		]
+	}
+]
