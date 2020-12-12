@@ -33,7 +33,8 @@ This [collection of scripts](https://github.com/mvit777/moodle_quick_dataset/tre
 [![screencast](https://github.com/mvit777/moodle_quick_dataset/raw/master/video/screencast.png)](https://www.youtube.com/watch?v=sj6mydLKPbk)
 
 ## ...some more details...
-The main folder should reside in moodle's root directory
+The main folder should reside in moodle's root directory.
+I previously divided students in three coohorts inside moodle (A, B, C) and give all the same password
 
 All the scripts are in the [py3 folder](https://github.com/mvit777/moodle_quick_dataset/tree/master/py3)
 
@@ -41,6 +42,11 @@ The [screenshot folder](https://github.com/mvit777/moodle_quick_dataset/tree/mas
 
 To start `python3 main.py` from inside the py3 folder
 
-All configurations are made in the [general.json](https://github.com/mvit777/moodle_quick_dataset/tree/master/py3/configs/) file
+Site level configurations are made in the [general.json](https://github.com/mvit777/moodle_quick_dataset/tree/master/py3/configs/general.json) file.
+
+The mapping 
+
+The [script folder](https://github.com/mvit777/moodle_quick_dataset/tree/master/py3/scripts/) contains some php scripts which are called by the main.py file and perform api calls to moodle. In some cases that was much easier than scripting with webdriver. Here you have to configure the token for moodle's webservice (talk about mess, I know)
+
 
 
