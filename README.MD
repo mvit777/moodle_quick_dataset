@@ -33,4 +33,10 @@ This [collection of scripts](https://github.com/mvit777/moodle_quick_dataset/tre
 [![screencast](https://github.com/mvit777/moodle_quick_dataset/raw/master/video/screencast.png)](https://www.youtube.com/watch?v=sj6mydLKPbk)
 
 ## ...some more details...
-TODO: add some details on installation and scripts
+The main folder should reside in moodle's root directory
+
+All the scripts are in the [py3 folder](https://github.com/mvit777/moodle_quick_dataset/tree/master/py3)
+
+The [screenshot folder](https://github.com/mvit777/moodle_quick_dataset/tree/master/py3/screenshot) should have write permission for moodle application (e.g. www-data)
+
+
