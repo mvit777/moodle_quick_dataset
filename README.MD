@@ -14,6 +14,7 @@ As per their definition:
 > - Teacher presence
 
 
-I also had a plan (now totally de-railed mainly due to lack of time) to code a plugin which would cross-check the model's output against the output of one or more gamification plugin, ideally through the use of [Jupyter Notebooks](https://jupyter.org/).
+I also had a plan (now totally de-railed mainly due to lack of time) to code a plugin which would cross-check the model's output against the output of one or more [gamification plugin](https://docs.moodle.org/310/en/Using_restrict_access#Gamification), ideally through the use of [Jupyter Notebooks](https://jupyter.org/).
 
-The first thing I needed was a lot of data. 
+The first thing I needed was a lot of data. At the time I had access to a moodle installment but the courses where already started or their structure did not meet the model's criteria (ex. no due date etc etc).
+So armed with a list of users, a couple of courses and the [selenium automate tools](https://www.selenium.dev/about/), I decided to simulate an entire semester in a matter of a week
