@@ -41,4 +41,6 @@ The [screenshot folder](https://github.com/mvit777/moodle_quick_dataset/tree/mas
 
 To start `python3 main.py` from inside the py3 folder
 
+All configurations are made in the [configs.py](https://github.com/mvit777/moodle_quick_dataset/tree/master/py3/) file
+
 
