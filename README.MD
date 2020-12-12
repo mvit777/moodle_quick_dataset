@@ -12,3 +12,8 @@ As per their definition:
 > - Cognitive presence
 > - Social presence
 > - Teacher presence
+
+
+I also had a plan (now totally de-railed mainly due to lack of time) to code a plugin which would cross-check the model's output against the output of one or more gamification plugin, ideally through the use of [Jupyter Notebooks](https://jupyter.org/).
+
+The first thing I needed was a lot of data. 
