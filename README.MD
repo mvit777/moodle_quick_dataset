@@ -52,7 +52,7 @@ To make things a little bit easier I also made some assumptions like the theme i
 The [scripts folder](https://github.com/mvit777/moodle_quick_dataset/tree/master/py3/scripts/) contains some php scripts which are called by the main.py file and perform api calls to moodle. In some cases that was much easier than scripting with webdriver. Here you have to configure the url, user and token for moodle's webservice.
 
 ## End of the story
-As said before this stuff is a bit messy but in case someone wants to pick up where I left here you go...happy coding
+As said before this stuff is a bit messy but in case someone wants to pick up where I left, here you go...happy coding
 
 
 
