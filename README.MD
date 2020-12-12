@@ -28,4 +28,4 @@ The first thing I needed was a lot of data. At the time I had access to a moodle
 So armed with a list of users, a couple of courses and the [selenium webdriver](https://www.selenium.dev/about/), I decided to simulate an entire semester in a matter of a week.
 The idea was to feed a script with the list of users and let selenium, a bit of system date/time tampering and a guided random do the rest.
 
-This collection of scripts is what I came out with and here a screencast of what they do
+This [collection of scripts](https://github.com/mvit777/moodle_quick_dataset) is what I came out with and here a screencast of what they do
