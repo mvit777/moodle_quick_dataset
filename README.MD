@@ -29,3 +29,5 @@ So armed with a list of users, a couple of courses and the [selenium webdriver](
 The idea was to feed a script with the list of users and let selenium, a bit of system date/time tampering and a guided random do the rest.
 
 This [collection of scripts](https://github.com/mvit777/moodle_quick_dataset/tree/master/py3) is what I came out with and here a screencast of what they do
+
+[![screencata](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/sj6mydLKPbk)
