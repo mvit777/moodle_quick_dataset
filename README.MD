@@ -12,9 +12,14 @@ As per their definition:
 > - Cognitive presence
 > - Social presence
 > - Teacher presence
+
 The expected output is something like this
 
 ![Insights](https://github.com/mvit777/moodle_quick_dataset/raw/master/docs/pics/list.png)
+
+and this
+
+![Insights](https://github.com/mvit777/moodle_quick_dataset/raw/master/docs/pics/detail.png)
 
 
 I also had a plan (now totally de-railed mainly due to lack of time) to code a plugin which would cross-check the model's output against the output of one or more [gamification plugin](https://docs.moodle.org/310/en/Using_restrict_access#Gamification), ideally through the use of [Jupyter Notebooks](https://jupyter.org/).
