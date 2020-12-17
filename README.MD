@@ -46,8 +46,8 @@ Site level configurations are made in the [general.json](https://github.com/mvit
 Here you can assign, for instance, the random for participating at the course on site level
 
 The mapping of the resources of the course is done in the [fullcourse.json](https://github.com/mvit777/moodle_quick_dataset/tree/master/py3/configs/fullcourse.json) in case you call main.py without arguments or a single course.
-The mapping of the resources of the course is a bit of a pain in the neck a script in the scripts folder may assist (see below). 
-To make things a little bit easier I also made some assumptions like the theme is the default one, the language is English and quizzes' first answer is the correct one (a funny moodle's configuration which only I usee I see is this).
+The mapping of the resources of the course is a bit of a pain in the neck, a script in the scripts folder may assist (see below). 
+To make things a little bit easier I also made some assumptions like the theme is the default one, the language is English and quizzes' first answer is the correct one (a funny moodle's configuration which only use I see is this).
 
 The [scripts folder](https://github.com/mvit777/moodle_quick_dataset/tree/master/py3/scripts/) contains some php scripts which are called by the main.py file and perform api calls to moodle. In some cases that was much easier than scripting with webdriver. Here you have to configure the url, user and token for moodle's webservice.
 
